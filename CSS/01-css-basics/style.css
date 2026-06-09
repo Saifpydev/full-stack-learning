@@ -1,0 +1,50 @@
+h1 {
+    background-color: aqua;
+    width: 200px;
+    height: 100px;
+    border-width: 10px;
+    border-style: solid;
+    text-align: center;
+    border-top-color: black;
+    border-right-color: blueviolet;
+    border-left-color: yellowgreen;
+    border-bottom-color: brown;
+    margin: auto
+    ;
+}
+
+p {
+    color: palevioletred;
+    
+
+}
+
+button {
+    color:brown;
+    background-color: wheat;
+}
+
+body {
+    background-color: #5c164e;
+}
+
+#box {
+    background-color: wheat;
+    
+}
+
+.heading {
+    color: aliceblue;
+
+}
+
+p {
+    text-align: left;
+}
+ 
+a {
+    color: aqua;
+    
+}
+
+

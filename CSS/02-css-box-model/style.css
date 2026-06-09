@@ -1,0 +1,30 @@
+div {
+    height: 100px;
+    width: 100px;
+    background-color: pink;
+    /* border-width: 2px;
+    border-style: solid;
+    border-color: blueviolet; */  
+    border: 2px solid brown; /* Width style and color can be written in a single line */
+    text-align: center;
+    border-radius: 10px;  /* Border radius is used to create rounded  and circle corners */
+    /* padding-left: 25px;    /* padding adds space between the content and border. 
+    padding-bottom: 25px;     It can be applied separately or in a single line .  */
+    padding : 1px 2px 3px 4px;
+   /* margin-top: 50px;         Margin adds space outside the element.*/
+    /* margin-bottom: 25px;    It can be applied separately or in a single line.  */
+    margin: 10px 20px 30px 40px;
+
+
+}
+
+h1{
+    width: 200px;
+    height: 50px;
+    background-color: aquamarine;
+    border-width: 3px;
+    border-style: dashed;
+    border-color: black;
+    text-align: center;
+
+}
