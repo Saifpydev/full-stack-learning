@@ -1,0 +1,31 @@
+div {
+    width: 50%;
+    height: 50px;
+    margin: 20px;
+    padding: 20px;
+    display: inline-block;
+    text-align: center;
+    background-color: rgba(0,  255, 0, 0.5);
+}
+
+body {
+    font-family: Arial,Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+h1{ 
+    color: #333;
+}
+
+
+.intro{
+    width: 200%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.html {
+    width: 200px;
+    height: 200px;
+}

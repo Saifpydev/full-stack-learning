@@ -1,0 +1,56 @@
+#box1 {
+    height: 100px;
+    width: 200px;
+    background-color: aqua;
+    font-size: 10px;
+}
+
+#box2 {
+    height: 50px;
+    width: 30%;
+    background-color: blueviolet;
+    margin-left: 10%;
+    font-size: 2em;
+    width: 5rem;
+}
+
+h1 {
+
+    background-color: black;
+    color: wheat;
+    text-align: center;
+}
+
+#Box3 {
+    position: static;
+    top: 50px;
+    bottom: 50px;
+    height: 100px;
+    width: 100px;
+    background-color: darkorchid;
+
+}
+
+#Box4 {
+    height: 100px;
+    width: 100px;
+    background-color: chartreuse;
+    background-image: url(Media/Bird-image.jpg);
+    background-size: cover;
+
+}
+
+#Box5 {
+    height: 100px;
+    width: 100px;
+    background-color: darkgoldenrod;
+}
+
+#Box3,
+#Box4,
+#Box5 {
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+}
+
