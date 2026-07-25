@@ -1,0 +1,197 @@
+=========================================
+08 - GET Request
+=========================================
+
+What is GET Request?
+--------------------
+GET Request is an HTTP request method used to retrieve data from a server or an API.
+
+Hindi:
+GET Request ka use server ya API se data lane (fetch karne) ke liye hota hai. Ye sirf data ko read karta hai, usme koi change nahi karta.
+
+-----------------------------------------
+Why GET Request?
+-----------------------------------------
+
+• Retrieve data from server
+• Read API data
+• Display user information
+• Display products
+• Display weather data
+• Display news and movies
+
+-----------------------------------------
+Syntax
+-----------------------------------------
+
+fetch("API_URL", {
+
+    method: "GET"
+
+})
+
+.then(function(response){
+
+    return response.json();
+
+})
+
+.then(function(data){
+
+    console.log(data);
+
+})
+
+.catch(function(error){
+
+    console.log(error);
+
+});
+
+-----------------------------------------
+How GET Request Works?
+-----------------------------------------
+
+Client
+   │
+   ▼
+GET Request
+   │
+   ▼
+Server/API
+   │
+   ▼
+Response
+   │
+   ▼
+JSON Data
+   │
+   ▼
+Display Data
+
+-----------------------------------------
+Important Points
+-----------------------------------------
+
+• GET Request retrieves data only.
+• It does not modify server data.
+• GET is the default method in Fetch API.
+• response.json() converts JSON into a JavaScript Object.
+
+-----------------------------------------
+Example
+-----------------------------------------
+
+fetch("https://jsonplaceholder.typicode.com/users/1", {
+
+    method: "GET"
+
+})
+
+.then(function(response){
+
+    return response.json();
+
+})
+
+.then(function(data){
+
+    console.log(data);
+
+})
+
+.catch(function(error){
+
+    console.log(error);
+
+});
+
+-----------------------------------------
+Advantages
+-----------------------------------------
+
+✔ Fast and simple
+✔ Safe (Read Only)
+✔ Easy to use
+✔ Supported by all browsers
+✔ Default method in Fetch API
+
+-----------------------------------------
+Disadvantages
+-----------------------------------------
+
+✘ Cannot create new data
+✘ Cannot update existing data
+✘ Cannot delete data
+✘ Sensitive information should not be sent in the URL
+
+-----------------------------------------
+Real Life Example
+-----------------------------------------
+
+Instagram Feed
+
+1. Open Instagram
+2. App sends GET Request
+3. Server returns posts
+4. Posts are displayed on the screen
+
+-----------------------------------------
+Interview Questions
+-----------------------------------------
+
+Q1. What is a GET Request?
+
+Answer:
+GET Request is used to retrieve data from a server.
+
+-----------------------------------------
+
+Q2. Does GET Request modify server data?
+
+Answer:
+No. It only retrieves data.
+
+-----------------------------------------
+
+Q3. Which HTTP method is the default in Fetch API?
+
+Answer:
+GET
+
+-----------------------------------------
+
+Q4. Is method: "GET" compulsory in fetch()?
+
+Answer:
+No. GET is the default method.
+
+-----------------------------------------
+
+Q5. What does response.json() do?
+
+Answer:
+It converts the JSON response into a JavaScript Object.
+
+-----------------------------------------
+
+Q6. Where is GET Request commonly used?
+
+Answer:
+Weather Apps, Movie Apps, News Apps, GitHub API, E-Commerce websites and Social Media Apps.
+
+-----------------------------------------
+Summary
+-----------------------------------------
+
+✔ GET Request retrieves data.
+
+✔ Does not modify server data.
+
+✔ Default method in Fetch API.
+
+✔ Returns JSON response.
+
+✔ response.json() converts JSON into a JavaScript Object.
+
+✔ Used with Fetch API, Async/Await and Promises.
