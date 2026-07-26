@@ -1,0 +1,352 @@
+==========================================
+09 - POST REQUEST (FETCH API)
+==========================================
+
+What is POST Request?
+
+POST Request is an HTTP Method used to send data to the server.
+
+It is mainly used to create a new resource in a database.
+
+Examples:
+- User Registration
+- Login Form
+- Contact Form
+- Add Product
+- Add Student
+- Blog Post
+- Online Order
+
+------------------------------------------
+
+CRUD Operations
+
+GET    -> Read Data
+POST   -> Create Data
+PUT    -> Update Complete Data
+PATCH  -> Update Partial Data
+DELETE -> Delete Data
+
+POST Request represents the CREATE operation.
+
+------------------------------------------
+
+Syntax
+
+fetch(url,{
+    method:"POST",
+    headers:{
+        "Content-Type":"application/json"
+    },
+    body:JSON.stringify(data)
+})
+.then(response=>response.json())
+.then(data=>console.log(data))
+.catch(error=>console.log(error));
+
+------------------------------------------
+
+Explanation
+
+1. fetch()
+
+Used to send an HTTP Request.
+
+------------------------------------------
+
+2. method
+
+Specifies which HTTP Method will be used.
+
+method:"POST"
+
+------------------------------------------
+
+3. headers
+
+Tell the server which type of data is being sent.
+
+headers:{
+    "Content-Type":"application/json"
+}
+
+------------------------------------------
+
+4. Content-Type
+
+application/json
+
+Indicates that JSON data is being sent.
+
+------------------------------------------
+
+5. body
+
+Contains the data that will be sent to the server.
+
+body:JSON.stringify({
+    title:"JavaScript",
+    body:"Learning POST Request",
+    userId:1
+})
+
+------------------------------------------
+
+6. JSON.stringify()
+
+Converts a JavaScript Object into a JSON String before sending it.
+
+Example
+
+Before
+
+{
+   name:"Saif",
+   age:20
+}
+
+After
+
+{
+   "name":"Saif",
+   "age":20
+}
+
+------------------------------------------
+
+7. response.json()
+
+Converts the JSON response into a JavaScript Object.
+
+------------------------------------------
+
+8. catch()
+
+Handles Errors.
+
+.catch(error=>{
+    console.log(error);
+})
+
+------------------------------------------
+
+POST Request Flow
+
+User
+
+↓
+
+Fill Form
+
+↓
+
+Click Button
+
+↓
+
+fetch()
+
+↓
+
+POST Request
+
+↓
+
+Server
+
+↓
+
+Database
+
+↓
+
+Response
+
+↓
+
+Browser
+
+------------------------------------------
+
+Example
+
+fetch("https://jsonplaceholder.typicode.com/posts",{
+    method:"POST",
+    headers:{
+        "Content-Type":"application/json"
+    },
+    body:JSON.stringify({
+        title:"JavaScript",
+        body:"Learning POST Request",
+        userId:1
+    })
+})
+.then(response=>response.json())
+.then(data=>console.log(data))
+.catch(error=>console.log(error));
+
+------------------------------------------
+
+Response Example
+
+{
+   title:"JavaScript",
+   body:"Learning POST Request",
+   userId:1,
+   id:101
+}
+
+------------------------------------------
+
+GET vs POST
+
+GET
+- Read Data
+- No Request Body
+- Fetch Existing Data
+
+POST
+- Create Data
+- Request Body Required
+- Send New Data
+
+------------------------------------------
+
+Advantages
+
+- Easy to send data.
+- Supports JSON.
+- Secure because data is not sent in the URL.
+- Used in almost every web application.
+- Best for creating new records.
+
+------------------------------------------
+
+Disadvantages
+
+- Cannot be bookmarked.
+- Cannot be cached like GET.
+- Requires a Request Body.
+- Slightly slower than GET.
+
+------------------------------------------
+
+Real World Uses
+
+- Registration Form
+- Login Form
+- Contact Form
+- Student Management System
+- Employee Management System
+- Blog Website
+- Product Upload
+- Online Shopping
+- Feedback Form
+
+------------------------------------------
+
+Common Mistakes
+
+1. Wrong API URL
+
+Wrong
+
+https://jsonplaceholder.typicode.com/post
+
+Correct
+
+https://jsonplaceholder.typicode.com/posts
+
+------------------------------------------
+
+2. Forgetting JSON.stringify()
+
+Wrong
+
+body:{
+   title:"Hello"
+}
+
+Correct
+
+body:JSON.stringify({
+   title:"Hello"
+})
+
+------------------------------------------
+
+3. Missing Headers
+
+headers:{
+   "Content-Type":"application/json"
+}
+
+------------------------------------------
+
+4. Using "" Instead of ``
+
+Wrong
+
+"<p>${data.title}</p>"
+
+Correct
+
+`<p>${data.title}</p>`
+
+------------------------------------------
+
+Interview Questions
+
+Q1. What is POST Request?
+
+Ans:
+POST Request is used to send data to the server.
+
+Q2. Which CRUD operation does POST represent?
+
+Ans:
+Create
+
+Q3. Why is JSON.stringify() used?
+
+Ans:
+To convert a JavaScript Object into a JSON String.
+
+Q4. Why do we use Content-Type?
+
+Ans:
+To tell the server that JSON data is being sent.
+
+Q5. What does response.json() do?
+
+Ans:
+Converts JSON Response into a JavaScript Object.
+
+Q6. Difference between GET and POST?
+
+GET -> Fetch Data
+
+POST -> Send Data
+
+Q7. Why do we use catch()?
+
+Ans:
+To handle request errors.
+
+------------------------------------------
+
+Summary
+
+✔ POST sends data to the server.
+✔ Used for CREATE operation.
+✔ fetch() sends the request.
+✔ method:"POST" defines the HTTP method.
+✔ headers define the data type.
+✔ body contains the request data.
+✔ JSON.stringify() converts Object to JSON.
+✔ response.json() converts JSON to Object.
+✔ catch() handles errors.
+
+==========================================
+END OF TOPIC
+==========================================

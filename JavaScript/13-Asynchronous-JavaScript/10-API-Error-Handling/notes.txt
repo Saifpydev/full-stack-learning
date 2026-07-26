@@ -1,0 +1,362 @@
+====================================================
+10 - API ERROR HANDLING (JavaScript)
+====================================================
+
+What is API Error Handling?
+
+API Error Handling means handling errors that occur while sending or receiving data from an API.
+
+In simple words:
+If an API request fails because of a wrong URL, no internet, or server issue, we should handle the error properly instead of letting the application crash.
+
+----------------------------------------------------
+
+Why Do We Need Error Handling?
+
+• Prevents application crashes.
+• Shows meaningful error messages.
+• Improves User Experience (UX).
+• Makes debugging easier.
+• Handles unexpected API failures safely.
+
+----------------------------------------------------
+
+Common API Errors
+
+1. Network Error
+
+Reason:
+• No Internet Connection
+• Server Down
+
+Example
+
+Failed to fetch
+
+----------------------------------------------------
+
+2. 404 Not Found
+
+Reason:
+Requested API URL or Resource does not exist.
+
+Example
+
+404 Not Found
+
+----------------------------------------------------
+
+3. 500 Internal Server Error
+
+Reason:
+Problem on the server side.
+
+Example
+
+500 Internal Server Error
+
+----------------------------------------------------
+
+4. 401 Unauthorized
+
+Reason:
+User is not authenticated.
+Invalid Login or Token.
+
+----------------------------------------------------
+
+5. 403 Forbidden
+
+Reason:
+User does not have permission to access the resource.
+
+----------------------------------------------------
+
+Basic Syntax
+
+fetch(url)
+
+.then(response=>{
+
+    if(!response.ok){
+
+        throw new Error("API Error");
+
+    }
+
+    return response.json();
+
+})
+
+.then(data=>{
+
+    console.log(data);
+
+})
+
+.catch(error=>{
+
+    console.log(error);
+
+});
+
+----------------------------------------------------
+
+Explanation
+
+1. fetch()
+
+Used to send an HTTP request.
+
+----------------------------------------------------
+
+2. response.ok
+
+Checks whether the request was successful.
+
+true  -> Success
+false -> Error
+
+----------------------------------------------------
+
+3. throw new Error()
+
+Creates a custom error manually.
+
+Example
+
+throw new Error("API Error");
+
+----------------------------------------------------
+
+4. response.json()
+
+Converts JSON response into a JavaScript Object.
+
+----------------------------------------------------
+
+5. catch()
+
+Handles all request errors.
+
+Example
+
+.catch(error=>{
+
+    console.log(error);
+
+})
+
+----------------------------------------------------
+
+Flow of Error Handling
+
+User
+
+↓
+
+Click Button
+
+↓
+
+fetch()
+
+↓
+
+API Request
+
+↓
+
+Response Received
+
+↓
+
+Success ?
+
+↓
+
+Yes → Show Data
+
+No → Show Error Message
+
+----------------------------------------------------
+
+Real World Uses
+
+• Login API
+• Registration API
+• Weather API
+• Payment Gateway
+• Shopping Website
+• Banking App
+• Hospital Management System
+• Student Management System
+
+----------------------------------------------------
+
+Advantages
+
+• Prevents application crash.
+• Better User Experience.
+• Easy Debugging.
+• Shows proper error messages.
+• Makes applications more reliable.
+
+----------------------------------------------------
+
+Common Mistakes
+
+1. Forgetting catch()
+
+Wrong
+
+fetch(url)
+
+.then(response=>response.json());
+
+Correct
+
+fetch(url)
+
+.then(response=>response.json())
+
+.catch(error=>console.log(error));
+
+----------------------------------------------------
+
+2. Not Checking response.ok
+
+Wrong
+
+return response.json();
+
+Correct
+
+if(!response.ok){
+
+    throw new Error("API Error");
+
+}
+
+return response.json();
+
+----------------------------------------------------
+
+3. Wrong API URL
+
+Wrong
+
+https://jsonplaceholder.typicode.com/postss
+
+Correct
+
+https://jsonplaceholder.typicode.com/posts
+
+----------------------------------------------------
+
+4. Ignoring Error Messages
+
+Always print errors during development.
+
+console.log(error);
+
+----------------------------------------------------
+
+Best Practices
+
+✔ Always use .catch().
+✔ Always check response.ok.
+✔ Show user-friendly error messages.
+✔ Use throw new Error() for custom errors.
+✔ Never ignore API errors.
+✔ Keep API URLs correct.
+✔ Test both Success and Error cases.
+
+----------------------------------------------------
+
+Interview Questions
+
+Q1. What is API Error Handling?
+
+Ans:
+Handling errors that occur during API requests.
+
+----------------------------------------------------
+
+Q2. Why do we use catch()?
+
+Ans:
+To handle API request errors.
+
+----------------------------------------------------
+
+Q3. What does response.ok do?
+
+Ans:
+Checks whether the request was successful.
+
+----------------------------------------------------
+
+Q4. Why do we use throw new Error()?
+
+Ans:
+To create and throw a custom error.
+
+----------------------------------------------------
+
+Q5. What is 404 Error?
+
+Ans:
+Requested resource or URL was not found.
+
+----------------------------------------------------
+
+Q6. What is 500 Error?
+
+Ans:
+Internal Server Error.
+
+----------------------------------------------------
+
+Q7. What is 401 Error?
+
+Ans:
+Unauthorized User.
+
+----------------------------------------------------
+
+Q8. What is 403 Error?
+
+Ans:
+Permission Denied.
+
+----------------------------------------------------
+
+Q9. Which method handles API errors?
+
+Ans:
+.catch()
+
+----------------------------------------------------
+
+Q10. Why is API Error Handling important?
+
+Ans:
+It prevents crashes, improves user experience, and makes applications more reliable.
+
+----------------------------------------------------
+
+Summary
+
+✔ API Error Handling manages API request failures.
+✔ fetch() sends the request.
+✔ response.ok checks request success.
+✔ throw new Error() creates custom errors.
+✔ response.json() converts JSON to JavaScript Object.
+✔ catch() handles errors.
+✔ Always display meaningful error messages.
+✔ Test both success and failure scenarios.
+
+====================================================
+END OF TOPIC
+====================================================
