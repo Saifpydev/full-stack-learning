@@ -1,0 +1,246 @@
+# Bootstrap Topic 02
+# Buttons
+
+=========================================
+What is a Bootstrap Button?
+=========================================
+
+Bootstrap Button is a pre-designed clickable element.
+
+Bootstrap provides ready-made button styles using classes.
+
+Syntax
+
+<button class="btn btn-primary">
+    Click Me
+</button>
+
+=========================================
+Required Class
+=========================================
+
+btn
+
+The "btn" class is mandatory.
+
+Without btn class Bootstrap button styling will not work.
+
+Example
+
+<button class="btn">
+Button
+</button>
+
+=========================================
+Button Colors
+=========================================
+
+btn-primary
+Blue Button
+
+btn-secondary
+Gray Button
+
+btn-success
+Green Button
+
+btn-danger
+Red Button
+
+btn-warning
+Yellow Button
+
+btn-info
+Light Blue Button
+
+btn-light
+White Button
+
+btn-dark
+Black Button
+
+=========================================
+Outline Buttons
+=========================================
+
+btn-outline-primary
+
+btn-outline-success
+
+btn-outline-danger
+
+btn-outline-warning
+
+btn-outline-dark
+
+Example
+
+<button class="btn btn-outline-primary">
+Primary
+</button>
+
+=========================================
+Button Sizes
+=========================================
+
+btn-lg
+
+Large Button
+
+btn-sm
+
+Small Button
+
+Example
+
+<button class="btn btn-success btn-lg">
+Large
+</button>
+
+<button class="btn btn-danger btn-sm">
+Small
+</button>
+
+=========================================
+Full Width Button
+=========================================
+
+w-100
+
+Example
+
+<button class="btn btn-primary w-100">
+Submit
+</button>
+
+=========================================
+Disabled Button
+=========================================
+
+disabled
+
+Example
+
+<button class="btn btn-primary" disabled>
+Disabled
+</button>
+
+=========================================
+Important Classes
+=========================================
+
+btn
+
+btn-primary
+
+btn-secondary
+
+btn-success
+
+btn-danger
+
+btn-warning
+
+btn-info
+
+btn-light
+
+btn-dark
+
+btn-outline-primary
+
+btn-lg
+
+btn-sm
+
+w-100
+
+disabled
+
+=========================================
+Interview Questions
+=========================================
+
+Q1. What is Bootstrap Button?
+
+A ready-made styled button provided by Bootstrap.
+
+-----------------------------------------
+
+Q2. Which class is compulsory?
+
+btn
+
+-----------------------------------------
+
+Q3. Which class creates a blue button?
+
+btn-primary
+
+-----------------------------------------
+
+Q4. Which class creates a green button?
+
+btn-success
+
+-----------------------------------------
+
+Q5. Which class creates an outline button?
+
+btn-outline-primary
+
+-----------------------------------------
+
+Q6. Which class creates a full-width button?
+
+w-100
+
+-----------------------------------------
+
+Q7. Which class creates a large button?
+
+btn-lg
+
+-----------------------------------------
+
+Q8. Which class creates a small button?
+
+btn-sm
+
+-----------------------------------------
+
+Q9. How do you disable a button?
+
+disabled attribute
+
+=========================================
+One Line Revision
+=========================================
+
+btn = Base Button
+
+btn-primary = Blue
+
+btn-success = Green
+
+btn-danger = Red
+
+btn-warning = Yellow
+
+btn-dark = Black
+
+btn-light = White
+
+btn-outline-* = Border Button
+
+btn-lg = Large
+
+btn-sm = Small
+
+w-100 = Full Width
+
+disabled = Disable Button
+
+=========================================
+End of Topic 02
+=========================================
