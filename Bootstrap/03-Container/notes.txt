@@ -1,0 +1,251 @@
+# Bootstrap Topic 03
+# Containers
+
+=========================================
+What is a Container?
+=========================================
+
+A Bootstrap Container is a responsive wrapper used to align and manage website content.
+
+Container keeps the content properly aligned and responsive on different screen sizes.
+
+=========================================
+Why use Container?
+=========================================
+
+- Proper Alignment
+- Responsive Layout
+- Better Spacing
+- Professional Design
+- Easy Content Management
+
+=========================================
+Types of Containers
+=========================================
+
+1. container
+
+Responsive Fixed Width Container.
+
+Used for:
+- Main Website Content
+- Forms
+- Cards
+- Sections
+
+Example
+
+<div class="container">
+    Content
+</div>
+
+-----------------------------------------
+
+2. container-fluid
+
+100% Width Container.
+
+Used for:
+- Header
+- Footer
+- Banner
+- Hero Section
+
+Example
+
+<div class="container-fluid">
+    Content
+</div>
+
+-----------------------------------------
+
+3. Responsive Containers
+
+container-sm
+
+container-md
+
+container-lg
+
+container-xl
+
+container-xxl
+
+These containers change width according to screen size.
+
+=========================================
+Important Utility Classes
+=========================================
+
+container
+→ Fixed Responsive Width
+
+container-fluid
+→ Full Width
+
+mt-5
+→ Margin Top
+
+p-4
+→ Padding
+
+bg-light
+→ Light Background
+
+bg-dark
+→ Dark Background
+
+text-primary
+→ Blue Text
+
+text-white
+→ White Text
+
+text-center
+→ Center Alignment
+
+shadow
+→ Shadow Effect
+
+rounded
+→ Rounded Corners
+
+btn
+→ Bootstrap Button Base Class
+
+btn-success
+→ Green Button
+
+btn-danger
+→ Red Button
+
+btn-outline-primary
+→ Blue Border Button
+
+me-2
+→ Right Margin Between Elements
+
+=========================================
+When to Use?
+=========================================
+
+container
+→ Normal Website Layout
+
+container-fluid
+→ Full Screen Section
+
+mt-5
+→ Top Space
+
+p-4
+→ Inner Space
+
+shadow
+→ Card / Box Design
+
+rounded
+→ Modern UI
+
+text-center
+→ Center Text
+
+btn-success
+→ Save / Submit Button
+
+btn-danger
+→ Delete Button
+
+=========================================
+Interview Questions
+=========================================
+
+Q1. What is Bootstrap Container?
+
+A responsive wrapper used to align website content.
+
+-----------------------------------------
+
+Q2. Difference between container and container-fluid?
+
+container
+→ Fixed Responsive Width
+
+container-fluid
+→ Full Width
+
+-----------------------------------------
+
+Q3. Which class creates full width?
+
+container-fluid
+
+-----------------------------------------
+
+Q4. What does mt-5 do?
+
+Adds top margin.
+
+-----------------------------------------
+
+Q5. What does p-4 do?
+
+Adds padding inside the element.
+
+-----------------------------------------
+
+Q6. Why is shadow used?
+
+To create depth and modern UI.
+
+-----------------------------------------
+
+Q7. Why is rounded used?
+
+To create rounded corners.
+
+-----------------------------------------
+
+Q8. Why is text-center used?
+
+To align text in the center.
+
+=========================================
+One Line Revision
+=========================================
+
+container → Fixed Width
+
+container-fluid → Full Width
+
+mt-5 → Margin Top
+
+p-4 → Padding
+
+bg-light → Light Background
+
+bg-dark → Dark Background
+
+text-primary → Blue Text
+
+text-white → White Text
+
+text-center → Center Text
+
+shadow → Shadow
+
+rounded → Rounded Corner
+
+btn → Base Button
+
+btn-success → Green Button
+
+btn-danger → Red Button
+
+btn-outline-primary → Border Button
+
+me-2 → Right Margin
+
+=========================================
+End of Topic 03
+=========================================
