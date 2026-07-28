@@ -1,0 +1,213 @@
+# Bootstrap Topic 04
+# Grid System
+
+=========================================
+What is Grid System?
+=========================================
+
+Bootstrap Grid System is used to create responsive layouts using rows and columns.
+
+Bootstrap divides every row into 12 equal columns.
+
+=========================================
+Why Use Grid System?
+=========================================
+
+- Responsive Design
+- Easy Layout Creation
+- Mobile Friendly
+- Professional UI
+- Easy Content Alignment
+
+=========================================
+Grid Structure
+=========================================
+
+container
+    ↓
+row
+    ↓
+column (col)
+
+Example
+
+<div class="container">
+    <div class="row">
+        <div class="col">
+            Content
+        </div>
+    </div>
+</div>
+
+=========================================
+12 Column Rule
+=========================================
+
+Bootstrap Grid has 12 columns.
+
+Examples
+
+col-12 = Full Width
+
+col-6 + col-6 = 12
+
+col-4 + col-4 + col-4 = 12
+
+col-3 + col-3 + col-3 + col-3 = 12
+
+=========================================
+Important Grid Classes
+=========================================
+
+container
+→ Main Wrapper
+
+row
+→ Creates a Row
+
+col
+→ Equal Width Column
+
+col-12
+→ Full Width
+
+col-6
+→ Half Width
+
+col-4
+→ One Third Width
+
+col-3
+→ One Fourth Width
+
+g-3
+→ Gap Between Rows and Columns
+
+=========================================
+Responsive Grid Classes
+=========================================
+
+col-sm-6
+→ Small Screen
+
+col-md-6
+→ Medium Screen
+
+col-lg-6
+→ Large Screen
+
+col-xl-6
+→ Extra Large Screen
+
+col-xxl-6
+→ Extra Extra Large Screen
+
+=========================================
+When to Use?
+=========================================
+
+container
+→ Main Layout
+
+row
+→ Group Columns
+
+col-6
+→ Two Columns
+
+col-4
+→ Three Columns
+
+col-3
+→ Four Columns
+
+g-3
+→ Add Space Between Boxes
+
+=========================================
+Interview Questions
+=========================================
+
+Q1. What is Bootstrap Grid?
+
+A layout system based on 12 columns.
+
+-----------------------------------------
+
+Q2. How many columns are available?
+
+12 Columns.
+
+-----------------------------------------
+
+Q3. What is the use of row?
+
+It holds all columns.
+
+-----------------------------------------
+
+Q4. What is col?
+
+It creates a column.
+
+-----------------------------------------
+
+Q5. What does col-6 mean?
+
+6 out of 12 columns (50% width).
+
+-----------------------------------------
+
+Q6. What does col-12 mean?
+
+Full Width.
+
+-----------------------------------------
+
+Q7. What is g-3?
+
+It adds spacing (gap) between rows and columns.
+
+-----------------------------------------
+
+Q8. Why is Bootstrap Grid Responsive?
+
+Because it automatically adjusts layouts for different screen sizes.
+
+=========================================
+One Line Revision
+=========================================
+
+Bootstrap Grid → 12 Columns
+
+container → Main Wrapper
+
+row → Parent
+
+col → Child
+
+col-12 → Full Width
+
+col-6 → Half Width
+
+col-4 → Three Columns
+
+col-3 → Four Columns
+
+g-3 → Gap
+
+Responsive Classes
+
+sm → Small
+
+md → Medium
+
+lg → Large
+
+xl → Extra Large
+
+xxl → Extra Extra Large
+
+=========================================
+End of Topic 04
+=========================================
