@@ -1,0 +1,200 @@
+# Bootstrap - Topic 01
+# Introduction, Installation & CDN Setup
+
+=========================================
+What is Bootstrap?
+=========================================
+
+Bootstrap is a free and open-source Front-End CSS Framework.
+
+It helps developers build responsive and mobile-first websites quickly using pre-built CSS classes and JavaScript components.
+
+-----------------------------------------
+Why Bootstrap?
+-----------------------------------------
+
+- Faster Development
+- Responsive Design
+- Mobile First
+- Ready-made Components
+- Utility Classes
+- Cross Browser Support
+- Free & Open Source
+
+-----------------------------------------
+Bootstrap History
+-----------------------------------------
+
+- Developed by Mark Otto and Jacob Thornton.
+- Created at Twitter in 2010.
+- Released as Open Source in 2011.
+- Originally known as Twitter Blueprint.
+
+-----------------------------------------
+Bootstrap Installation Methods
+-----------------------------------------
+
+1. CDN (Recommended for Beginners)
+2. Download Bootstrap Files
+3. npm install bootstrap (Professional Method)
+
+-----------------------------------------
+CDN
+-----------------------------------------
+
+CDN = Content Delivery Network
+
+CDN allows us to use Bootstrap without downloading or installing any files.
+
+-----------------------------------------
+Bootstrap Files
+-----------------------------------------
+
+Bootstrap CSS
+Purpose:
+- Styling
+- Colors
+- Buttons
+- Grid
+- Typography
+
+Bootstrap JavaScript
+Purpose:
+- Modal
+- Navbar
+- Dropdown
+- Carousel
+- Tooltip
+- Accordion
+
+-----------------------------------------
+Where to Add Bootstrap?
+-----------------------------------------
+
+Bootstrap CSS
+
+<head>
+    Bootstrap CSS Link
+</head>
+
+Bootstrap JavaScript
+
+Before closing </body>
+
+-----------------------------------------
+Custom Files
+-----------------------------------------
+
+index.html
+→ HTML + Bootstrap Classes
+
+style.css
+→ Custom CSS
+
+script.js
+→ Custom JavaScript
+
+-----------------------------------------
+Bootstrap Classes
+-----------------------------------------
+
+Bootstrap is used through HTML classes.
+
+Examples
+
+btn
+btn-primary
+container
+row
+col
+text-primary
+bg-dark
+
+Example
+
+<button class="btn btn-primary">
+    Click Me
+</button>
+
+-----------------------------------------
+How Bootstrap Works?
+-----------------------------------------
+
+1. Browser loads Bootstrap CSS.
+2. Bootstrap CSS already contains predefined classes.
+3. We use those classes in HTML.
+4. Browser automatically applies the design.
+
+-----------------------------------------
+Where are Bootstrap Classes?
+-----------------------------------------
+
+Bootstrap classes are already written inside bootstrap.min.css.
+
+We normally view and learn them from the official Bootstrap Documentation.
+
+-----------------------------------------
+Official Bootstrap Website
+-----------------------------------------
+
+https://getbootstrap.com
+
+Official Documentation contains:
+
+- Components
+- Layout
+- Utilities
+- Examples
+- Installation Guide
+
+-----------------------------------------
+Interview Questions
+-----------------------------------------
+
+Q1. What is Bootstrap?
+
+Bootstrap is a free and open-source Front-End CSS Framework.
+
+Q2. Who developed Bootstrap?
+
+Mark Otto and Jacob Thornton.
+
+Q3. What is CDN?
+
+Content Delivery Network.
+
+Q4. Where do we add Bootstrap CSS?
+
+Inside the <head> tag.
+
+Q5. Where do we add Bootstrap JavaScript?
+
+Before the closing </body> tag.
+
+Q6. Where are Bootstrap classes written?
+
+Inside the Bootstrap CSS file (bootstrap.min.css).
+
+Q7. How do we use Bootstrap?
+
+By using Bootstrap classes inside HTML.
+
+-----------------------------------------
+Important Keywords
+-----------------------------------------
+
+Bootstrap
+Framework
+Front-End
+Responsive
+Mobile First
+CDN
+CSS
+JavaScript
+Components
+Utilities
+Classes
+
+=========================================
+End of Topic 01
+=========================================
