@@ -1,0 +1,217 @@
+# Bootstrap Topic 05
+# Typography
+
+=========================================
+What is Typography?
+=========================================
+
+Typography is used to style and format text to make a website attractive, readable, and professional.
+
+=========================================
+Why Use Typography?
+=========================================
+
+- Better Readability
+- Professional Design
+- Easy Text Styling
+- Responsive Text
+- Attractive User Interface
+
+=========================================
+Important Typography Classes
+=========================================
+
+display-1
+→ Largest Heading
+
+display-2
+→ Large Heading
+
+display-3
+→ Medium Large Heading
+
+display-4
+→ Medium Heading
+
+lead
+→ Highlight Paragraph
+
+text-start
+→ Left Align Text
+
+text-center
+→ Center Align Text
+
+text-end
+→ Right Align Text
+
+fw-bold
+→ Bold Text
+
+fw-semibold
+→ Semi Bold Text
+
+fw-normal
+→ Normal Font Weight
+
+fw-light
+→ Light Font Weight
+
+fst-italic
+→ Italic Text
+
+fst-normal
+→ Normal Font Style
+
+text-uppercase
+→ Convert Text to UPPERCASE
+
+text-lowercase
+→ Convert Text to lowercase
+
+text-capitalize
+→ Capitalize First Letter of Every Word
+
+text-primary
+→ Blue Text
+
+text-success
+→ Green Text
+
+text-danger
+→ Red Text
+
+text-warning
+→ Yellow Text
+
+text-info
+→ Sky Blue Text
+
+text-dark
+→ Black Text
+
+=========================================
+When to Use?
+=========================================
+
+display-1
+→ Main Heading
+
+lead
+→ Important Paragraph
+
+text-center
+→ Heading Alignment
+
+fw-bold
+→ Important Text
+
+fst-italic
+→ Quotes or Special Text
+
+text-uppercase
+→ Titles
+
+text-capitalize
+→ Names and Headings
+
+text-primary
+→ Highlight Text
+
+=========================================
+Interview Questions
+=========================================
+
+Q1. What is Bootstrap Typography?
+
+Typography is used to style and format text.
+
+-----------------------------------------
+
+Q2. Which class creates a large heading?
+
+display-1
+
+-----------------------------------------
+
+Q3. What does the lead class do?
+
+It highlights an important paragraph.
+
+-----------------------------------------
+
+Q4. Which class makes text bold?
+
+fw-bold
+
+-----------------------------------------
+
+Q5. Which class makes text italic?
+
+fst-italic
+
+-----------------------------------------
+
+Q6. Which class converts text to uppercase?
+
+text-uppercase
+
+-----------------------------------------
+
+Q7. Which class centers text?
+
+text-center
+
+-----------------------------------------
+
+Q8. Which class changes text color to blue?
+
+text-primary
+
+=========================================
+One Line Revision
+=========================================
+
+display-1 → Large Heading
+
+lead → Highlight Paragraph
+
+text-start → Left Align
+
+text-center → Center Align
+
+text-end → Right Align
+
+fw-bold → Bold
+
+fw-semibold → Semi Bold
+
+fw-normal → Normal
+
+fw-light → Light
+
+fst-italic → Italic
+
+fst-normal → Normal Style
+
+text-uppercase → UPPERCASE
+
+text-lowercase → lowercase
+
+text-capitalize → Capitalize
+
+text-primary → Blue
+
+text-success → Green
+
+text-danger → Red
+
+text-warning → Yellow
+
+text-info → Sky Blue
+
+text-dark → Black
+
+=========================================
+End of Topic 05
+=========================================
