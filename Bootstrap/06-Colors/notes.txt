@@ -1,0 +1,252 @@
+# Bootstrap Topic 06
+# Colors
+
+=========================================
+What are Bootstrap Colors?
+=========================================
+
+Bootstrap provides predefined color classes to style text, backgrounds, buttons, borders, and other elements without writing custom CSS.
+
+=========================================
+Why Use Bootstrap Colors?
+=========================================
+
+- Professional UI
+- Fast Development
+- Consistent Design
+- Easy to Use
+- No Extra CSS Required
+
+=========================================
+Text Color Classes
+=========================================
+
+text-primary
+→ Blue Text
+
+text-secondary
+→ Gray Text
+
+text-success
+→ Green Text
+
+text-danger
+→ Red Text
+
+text-warning
+→ Yellow Text
+
+text-info
+→ Sky Blue Text
+
+text-light
+→ Light Text
+
+text-dark
+→ Dark Text
+
+text-white
+→ White Text
+
+text-muted
+→ Light Gray Text
+
+=========================================
+Background Color Classes
+=========================================
+
+bg-primary
+→ Blue Background
+
+bg-secondary
+→ Gray Background
+
+bg-success
+→ Green Background
+
+bg-danger
+→ Red Background
+
+bg-warning
+→ Yellow Background
+
+bg-info
+→ Sky Blue Background
+
+bg-light
+→ Light Background
+
+bg-dark
+→ Dark Background
+
+=========================================
+Button Color Classes
+=========================================
+
+btn-primary
+→ Blue Button
+
+btn-success
+→ Green Button
+
+btn-danger
+→ Red Button
+
+btn-warning
+→ Yellow Button
+
+btn-info
+→ Sky Blue Button
+
+btn-dark
+→ Black Button
+
+btn-light
+→ Light Button
+
+=========================================
+Border Color Classes
+=========================================
+
+border-primary
+→ Blue Border
+
+border-success
+→ Green Border
+
+border-danger
+→ Red Border
+
+border-warning
+→ Yellow Border
+
+border-info
+→ Sky Blue Border
+
+border-dark
+→ Black Border
+
+=========================================
+Other Important Classes
+=========================================
+
+bg-gradient
+→ Adds Gradient Effect
+
+text-opacity-50
+→ 50% Text Opacity
+
+bg-opacity-75
+→ 75% Background Opacity
+
+=========================================
+When to Use?
+=========================================
+
+text-primary
+→ Headings
+
+text-success
+→ Success Messages
+
+text-danger
+→ Error Messages
+
+bg-primary
+→ Cards / Sections
+
+bg-dark
+→ Footer / Navbar
+
+btn-success
+→ Save Button
+
+btn-danger
+→ Delete Button
+
+border-primary
+→ Highlight Boxes
+
+=========================================
+Interview Questions
+=========================================
+
+Q1. What are Bootstrap Colors?
+
+Bootstrap provides predefined color classes for styling UI elements.
+
+-----------------------------------------
+
+Q2. Which class changes text color?
+
+text-primary
+
+-----------------------------------------
+
+Q3. Which class changes background color?
+
+bg-primary
+
+-----------------------------------------
+
+Q4. Which class creates a green button?
+
+btn-success
+
+-----------------------------------------
+
+Q5. Which class creates a red button?
+
+btn-danger
+
+-----------------------------------------
+
+Q6. Which class adds a gradient effect?
+
+bg-gradient
+
+-----------------------------------------
+
+Q7. Which class changes border color?
+
+border-primary
+
+-----------------------------------------
+
+Q8. Which class changes text opacity?
+
+text-opacity-50
+
+=========================================
+One-Line Revision
+=========================================
+
+text-primary → Blue Text
+
+text-success → Green Text
+
+text-danger → Red Text
+
+bg-primary → Blue Background
+
+bg-success → Green Background
+
+bg-danger → Red Background
+
+btn-primary → Blue Button
+
+btn-success → Green Button
+
+btn-danger → Red Button
+
+border-primary → Blue Border
+
+bg-gradient → Gradient Effect
+
+text-opacity-50 → Text Opacity
+
+bg-opacity-75 → Background Opacity
+
+=========================================
+End of Topic 06
+=========================================
