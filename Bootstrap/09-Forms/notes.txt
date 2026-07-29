@@ -1,0 +1,205 @@
+# Bootstrap Topic 09
+# Forms
+
+=========================================
+What are Bootstrap Forms?
+=========================================
+
+Bootstrap Forms provide ready-made classes to create responsive, clean, and professional forms with minimal CSS.
+
+=========================================
+Why Use Bootstrap Forms?
+=========================================
+
+- Professional Design
+- Responsive Layout
+- Easy to Create
+- Mobile Friendly
+- Better User Experience
+- Less Custom CSS
+
+=========================================
+Important Form Classes
+=========================================
+
+form-label
+→ Styles labels.
+
+form-control
+→ Styles input fields.
+
+form-select
+→ Styles dropdown menus.
+
+form-check
+→ Wrapper for checkbox and radio buttons.
+
+form-check-input
+→ Styles checkbox and radio input.
+
+form-check-label
+→ Styles checkbox and radio labels.
+
+btn
+→ Creates Bootstrap button.
+
+btn-primary
+→ Blue button.
+
+w-100
+→ Full-width button.
+
+=========================================
+Input Field
+=========================================
+
+<input class="form-control">
+
+Creates a responsive input box.
+
+=========================================
+Label
+=========================================
+
+<label class="form-label">
+
+Creates a professional label.
+
+=========================================
+Dropdown
+=========================================
+
+<select class="form-select">
+
+Creates a Bootstrap dropdown.
+
+=========================================
+Checkbox & Radio
+=========================================
+
+<div class="form-check">
+
+Used for checkbox and radio buttons.
+
+=========================================
+Button
+=========================================
+
+<button class="btn btn-primary">
+
+Creates a Bootstrap button.
+
+=========================================
+When to Use?
+=========================================
+
+form-control
+→ Login Form
+→ Registration Form
+→ Contact Form
+
+form-select
+→ Country
+→ Course
+→ City Selection
+
+form-check
+→ Terms & Conditions
+→ Gender Selection
+
+btn
+→ Submit
+→ Register
+→ Login
+
+=========================================
+Interview Questions
+=========================================
+
+Q1. Which class styles input fields?
+
+Answer:
+form-control
+
+-----------------------------------------
+
+Q2. Which class styles labels?
+
+Answer:
+form-label
+
+-----------------------------------------
+
+Q3. Which class creates a dropdown?
+
+Answer:
+form-select
+
+-----------------------------------------
+
+Q4. Which class is used for checkboxes and radio buttons?
+
+Answer:
+form-check
+
+-----------------------------------------
+
+Q5. Which class creates a full-width button?
+
+Answer:
+w-100
+
+-----------------------------------------
+
+Q6. Which class creates a blue button?
+
+Answer:
+btn-primary
+
+-----------------------------------------
+
+Q7. Can multiple Bootstrap classes be used together?
+
+Answer:
+Yes.
+
+Example:
+class="btn btn-primary w-100"
+
+=========================================
+One-Line Revision
+=========================================
+
+form-control → Input Field
+
+form-label → Label
+
+form-select → Dropdown
+
+form-check → Checkbox/Radio
+
+btn → Button
+
+btn-primary → Blue Button
+
+w-100 → Full Width
+
+=========================================
+Real Project Use
+=========================================
+
+Login Page
+
+Registration Form
+
+Contact Form
+
+Job Application Form
+
+Student Management System
+
+Employee Management System
+
+=========================================
+End of Topic 09
+=========================================
