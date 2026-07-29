@@ -49,6 +49,33 @@ print(id(name))
 
 # Delete a variable using del
 
-name = "Ahmad"
-del name
-print(name)
+# name = "Ahmad"
+# del name
+# print(name)
+
+
+# Medium level question
+
+# Create five variables of difference data type and print their types.
+
+name = "Ashraf"
+mob = 9304421289
+id_num = 2589
+Marks = 79.4
+Gender = "Male"
+Country = "India"
+
+print("My Name is, {name}")
+print("My Mob No, {mob}")
+print("id_no, {id_num}")
+print("My Marks is, {Mark}")
+print("my Gender,{Gender}")
+print("My Country,{country}")
+print(type(name))
+print(type(mob))
+print(type(id_num))
+print(type(Marks))
+print(type(Gender))
+print(type(Country))
+
+
