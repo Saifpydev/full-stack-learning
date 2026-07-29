@@ -1,0 +1,182 @@
+# Bootstrap Topic 07
+# Images
+
+=========================================
+What are Bootstrap Images?
+=========================================
+
+Bootstrap provides predefined classes to make images responsive, attractive, and professional without writing much CSS.
+
+=========================================
+Why Use Bootstrap Images?
+=========================================
+
+- Responsive Images
+- Professional UI
+- Better User Experience
+- Mobile Friendly
+- Less Custom CSS
+
+=========================================
+Important Image Classes
+=========================================
+
+img-fluid
+→ Responsive Image
+
+rounded
+→ Rounded Corners
+
+rounded-circle
+→ Circular Image
+
+img-thumbnail
+→ Image with Border and Padding
+
+=========================================
+Image Alignment
+=========================================
+
+text-start
+→ Left Align
+
+text-center
+→ Center Align
+
+text-end
+→ Right Align
+
+=========================================
+Responsive Image
+=========================================
+
+<img src="image.jpg" class="img-fluid">
+
+Automatically adjusts image width according to screen size.
+
+=========================================
+Rounded Image
+=========================================
+
+<img src="image.jpg" class="rounded">
+
+Creates rounded corners.
+
+=========================================
+Circle Image
+=========================================
+
+<img src="image.jpg" class="rounded-circle">
+
+Creates a circular profile image.
+
+=========================================
+Thumbnail Image
+=========================================
+
+<img src="image.jpg" class="img-thumbnail">
+
+Adds border and padding around the image.
+
+=========================================
+When to Use?
+=========================================
+
+img-fluid
+→ Hero Images
+→ Portfolio
+→ Gallery
+
+rounded
+→ Cards
+→ Blog Images
+
+rounded-circle
+→ Profile Photo
+→ Team Members
+
+img-thumbnail
+→ Gallery
+→ Product Images
+
+=========================================
+Interview Questions
+=========================================
+
+Q1. What is img-fluid?
+
+Makes an image responsive.
+
+-----------------------------------------
+
+Q2. Which class creates a circular image?
+
+rounded-circle
+
+-----------------------------------------
+
+Q3. Which class creates rounded corners?
+
+rounded
+
+-----------------------------------------
+
+Q4. Which class creates a thumbnail image?
+
+img-thumbnail
+
+-----------------------------------------
+
+Q5. Why is img-fluid important?
+
+Because it automatically resizes images for different screen sizes.
+
+-----------------------------------------
+
+Q6. Which Bootstrap class is mostly used for profile images?
+
+rounded-circle
+
+-----------------------------------------
+
+Q7. Which Bootstrap class adds a border around an image?
+
+img-thumbnail
+
+=========================================
+One-Line Revision
+=========================================
+
+img-fluid → Responsive Image
+
+rounded → Rounded Corners
+
+rounded-circle → Circle Image
+
+img-thumbnail → Border + Padding
+
+text-start → Left Align
+
+text-center → Center Align
+
+text-end → Right Align
+
+=========================================
+Real Project Use
+=========================================
+
+Profile Page
+→ rounded-circle
+
+Portfolio Website
+→ img-fluid
+
+E-Commerce
+→ img-thumbnail
+
+Blog Website
+→ rounded
+
+=========================================
+End of Topic 07
+=========================================
