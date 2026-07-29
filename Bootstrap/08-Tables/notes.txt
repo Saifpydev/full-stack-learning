@@ -1,0 +1,208 @@
+# Bootstrap Topic 08
+# Tables
+
+=========================================
+What are Bootstrap Tables?
+=========================================
+
+Bootstrap provides ready-made classes to create beautiful, responsive, and professional tables with very little CSS.
+
+=========================================
+Why Use Bootstrap Tables?
+=========================================
+
+- Professional Design
+- Responsive Layout
+- Easy to Style
+- Mobile Friendly
+- Better Readability
+- Less Custom CSS
+
+=========================================
+Important Table Classes
+=========================================
+
+table
+→ Creates a basic Bootstrap table.
+
+table-striped
+→ Adds alternate row colors.
+
+table-bordered
+→ Adds borders to all table cells.
+
+table-hover
+→ Highlights a row when the mouse hovers over it.
+
+table-dark
+→ Applies a dark theme to the table or table header.
+
+table-responsive
+→ Makes the table scroll horizontally on small screens.
+
+=========================================
+Basic Table
+=========================================
+
+<table class="table">
+
+Creates a simple Bootstrap table.
+
+=========================================
+Striped Table
+=========================================
+
+<table class="table table-striped">
+
+Displays alternate row colors for better readability.
+
+=========================================
+Bordered Table
+=========================================
+
+<table class="table table-bordered">
+
+Adds borders around every row and column.
+
+=========================================
+Hover Table
+=========================================
+
+<table class="table table-hover">
+
+Highlights a row when the cursor moves over it.
+
+=========================================
+Dark Table
+=========================================
+
+<table class="table table-dark">
+
+Creates a dark-themed table.
+
+=========================================
+Responsive Table
+=========================================
+
+<div class="table-responsive">
+
+Makes the table responsive by enabling horizontal scrolling on smaller devices.
+
+=========================================
+When to Use?
+=========================================
+
+table
+→ Basic Data Display
+
+table-striped
+→ Employee Records
+→ Student Lists
+
+table-bordered
+→ Reports
+→ Admin Panels
+
+table-hover
+→ Dashboards
+→ CRM Systems
+
+table-dark
+→ Header Section
+→ Dark Theme UI
+
+table-responsive
+→ Mobile Websites
+→ Responsive Dashboards
+
+=========================================
+Interview Questions
+=========================================
+
+Q1. Which class creates a Bootstrap table?
+
+Answer:
+table
+
+-----------------------------------------
+
+Q2. Which class adds alternate row colors?
+
+Answer:
+table-striped
+
+-----------------------------------------
+
+Q3. Which class adds borders to a table?
+
+Answer:
+table-bordered
+
+-----------------------------------------
+
+Q4. Which class highlights rows on hover?
+
+Answer:
+table-hover
+
+-----------------------------------------
+
+Q5. Which class creates a dark table?
+
+Answer:
+table-dark
+
+-----------------------------------------
+
+Q6. Why do we use table-responsive?
+
+Answer:
+To make the table responsive on mobile devices.
+
+-----------------------------------------
+
+Q7. Can multiple table classes be used together?
+
+Answer:
+Yes.
+Example:
+class="table table-striped table-bordered table-hover"
+
+=========================================
+One-Line Revision
+=========================================
+
+table → Basic Table
+
+table-striped → Alternate Row Colors
+
+table-bordered → Borders
+
+table-hover → Hover Effect
+
+table-dark → Dark Theme
+
+table-responsive → Responsive Table
+
+=========================================
+Real Project Use
+=========================================
+
+Admin Dashboard
+→ Employee Data
+
+School Management System
+→ Student Records
+
+Hospital Management
+→ Patient Details
+
+Bank Management
+→ Transaction History
+
+E-Commerce Admin Panel
+→ Product List
+
+=========================================
+End of Topic 08
+=========================================
