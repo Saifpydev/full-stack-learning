@@ -1,0 +1,234 @@
+# Bootstrap Topic 11
+# Navbar
+
+=========================================
+What is Bootstrap Navbar?
+=========================================
+
+Bootstrap Navbar is a responsive navigation bar used to create menus for websites.
+
+=========================================
+Why Use Bootstrap Navbar?
+=========================================
+
+- Professional Navigation
+- Responsive Design
+- Mobile Friendly
+- Easy to Customize
+- Used in Almost Every Website
+
+=========================================
+Important Navbar Classes
+=========================================
+
+navbar
+→ Main navigation container.
+
+navbar-expand-lg
+→ Expands navbar on large screens and collapses on small screens.
+
+navbar-dark
+→ Light-colored text/icons for dark background.
+
+bg-dark
+→ Applies dark background.
+
+container
+→ Centers and aligns navbar content.
+
+navbar-brand
+→ Website logo or brand name.
+
+navbar-nav
+→ Container for navigation links.
+
+nav-item
+→ Each menu item.
+
+nav-link
+→ Navigation link.
+
+active
+→ Highlights the current page.
+
+ms-auto
+→ Moves menu items to the right.
+
+navbar-toggler
+→ Mobile menu button.
+
+navbar-toggler-icon
+→ Hamburger menu icon.
+
+collapse
+→ Hides content on small screens.
+
+navbar-collapse
+→ Wrapper for collapsible menu.
+
+=========================================
+Basic Navbar
+=========================================
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+
+Creates a responsive Bootstrap navbar.
+
+=========================================
+Brand
+=========================================
+
+<a class="navbar-brand">
+
+Displays the website logo or name.
+
+=========================================
+Navigation Links
+=========================================
+
+<ul class="navbar-nav">
+
+Contains all navigation links.
+
+=========================================
+Responsive Menu
+=========================================
+
+<button class="navbar-toggler">
+
+Creates a mobile menu button.
+
+=========================================
+Collapse Menu
+=========================================
+
+<div class="collapse navbar-collapse">
+
+Shows or hides the menu on small devices.
+
+=========================================
+When to Use?
+=========================================
+
+Portfolio Website
+
+Company Website
+
+E-Commerce Website
+
+Blog Website
+
+School Website
+
+Admin Dashboard
+
+=========================================
+Interview Questions
+=========================================
+
+Q1. What is a Bootstrap Navbar?
+
+Answer:
+A responsive navigation bar used to navigate between website pages.
+
+-----------------------------------------
+
+Q2. Which class creates a navbar?
+
+Answer:
+navbar
+
+-----------------------------------------
+
+Q3. Which class creates the website logo?
+
+Answer:
+navbar-brand
+
+-----------------------------------------
+
+Q4. Which class creates navigation links?
+
+Answer:
+nav-link
+
+-----------------------------------------
+
+Q5. Which class makes the navbar responsive?
+
+Answer:
+navbar-expand-lg
+
+-----------------------------------------
+
+Q6. Which class creates the mobile menu button?
+
+Answer:
+navbar-toggler
+
+-----------------------------------------
+
+Q7. Which class moves menu items to the right?
+
+Answer:
+ms-auto
+
+=========================================
+Common Mistakes
+=========================================
+
+❌ nev-link
+✅ nav-link
+
+❌ navbar-brand (for button)
+✅ navbar-toggler
+
+❌ bootstrap.min.js
+✅ bootstrap.bundle.min.js
+
+❌ <nav class="container">
+✅ <div class="container">
+
+=========================================
+One-Line Revision
+=========================================
+
+navbar → Main Navbar
+
+navbar-expand-lg → Responsive Navbar
+
+navbar-brand → Logo
+
+navbar-nav → Menu Container
+
+nav-item → Menu Item
+
+nav-link → Navigation Link
+
+navbar-toggler → Mobile Button
+
+navbar-toggler-icon → Hamburger Icon
+
+collapse → Hide/Show Menu
+
+ms-auto → Right Alignment
+
+=========================================
+Real Project Use
+=========================================
+
+Portfolio Website
+
+Company Website
+
+E-Commerce Website
+
+Blog Website
+
+Admin Dashboard
+
+Landing Page
+
+=========================================
+End of Topic 11
+=========================================
