@@ -1,0 +1,212 @@
+# Bootstrap Topic 10
+# Cards
+
+=========================================
+What are Bootstrap Cards?
+=========================================
+
+Bootstrap Cards are flexible containers used to display images, text, buttons, and other content in a professional layout.
+
+=========================================
+Why Use Bootstrap Cards?
+=========================================
+
+- Professional UI
+- Responsive Design
+- Easy to Customize
+- Reusable Component
+- Less Custom CSS
+
+=========================================
+Important Card Classes
+=========================================
+
+card
+→ Main card container.
+
+card-img-top
+→ Displays an image at the top of the card.
+
+card-body
+→ Holds the card content.
+
+card-title
+→ Displays the card heading.
+
+card-text
+→ Displays the description.
+
+btn
+→ Creates a Bootstrap button.
+
+btn-primary
+→ Creates a blue button.
+
+shadow
+→ Adds a shadow effect.
+
+rounded
+→ Adds rounded corners.
+
+=========================================
+Basic Card
+=========================================
+
+<div class="card">
+
+Creates a Bootstrap card.
+
+=========================================
+Card Image
+=========================================
+
+<img class="card-img-top">
+
+Adds an image at the top of the card.
+
+=========================================
+Card Body
+=========================================
+
+<div class="card-body">
+
+Contains the card content.
+
+=========================================
+Card Title
+=========================================
+
+<h5 class="card-title">
+
+Displays the card heading.
+
+=========================================
+Card Text
+=========================================
+
+<p class="card-text">
+
+Displays the card description.
+
+=========================================
+Card Button
+=========================================
+
+<button class="btn btn-primary">
+
+Creates a Bootstrap button inside the card.
+
+=========================================
+When to Use?
+=========================================
+
+card
+→ Portfolio
+
+card-img-top
+→ Product Image
+
+card-body
+→ Main Content
+
+card-title
+→ Product/Service Name
+
+card-text
+→ Description
+
+btn
+→ Read More
+
+=========================================
+Interview Questions
+=========================================
+
+Q1. Which class creates a Bootstrap card?
+
+Answer:
+card
+
+-----------------------------------------
+
+Q2. Which class displays the image at the top?
+
+Answer:
+card-img-top
+
+-----------------------------------------
+
+Q3. Which class contains the card content?
+
+Answer:
+card-body
+
+-----------------------------------------
+
+Q4. Which class is used for the heading?
+
+Answer:
+card-title
+
+-----------------------------------------
+
+Q5. Which class is used for the description?
+
+Answer:
+card-text
+
+-----------------------------------------
+
+Q6. Which class adds a shadow effect?
+
+Answer:
+shadow
+
+-----------------------------------------
+
+Q7. Can a card contain images, text, and buttons together?
+
+Answer:
+Yes.
+
+=========================================
+One-Line Revision
+=========================================
+
+card → Main Card
+
+card-img-top → Top Image
+
+card-body → Content Area
+
+card-title → Heading
+
+card-text → Description
+
+btn → Button
+
+shadow → Shadow Effect
+
+rounded → Rounded Corners
+
+=========================================
+Real Project Use
+=========================================
+
+Portfolio Website
+
+E-Commerce Product Cards
+
+Blog Website
+
+Course Website
+
+Team Member Section
+
+Service Section
+
+News Website
+
+=========================================
+End of Topic 10
+=========================================
