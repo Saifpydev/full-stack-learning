@@ -1,0 +1,207 @@
+# Bootstrap Topic 15
+# List Group
+
+=========================================
+What is Bootstrap List Group?
+=========================================
+
+Bootstrap List Group is a component used to display a collection of items in a clean, professional, and responsive list.
+
+=========================================
+Why Use Bootstrap List Group?
+=========================================
+
+- Professional UI
+- Responsive Design
+- Easy Navigation
+- Easy to Customize
+- Less Custom CSS
+
+=========================================
+Important List Group Classes
+=========================================
+
+list-group
+→ Main list container.
+
+list-group-item
+→ Creates each list item.
+
+active
+→ Highlights the selected item.
+
+disabled
+→ Disables a list item.
+
+list-group-numbered
+→ Creates a numbered list.
+
+list-group-flush
+→ Removes the outer borders.
+
+=========================================
+Basic List Group
+=========================================
+
+<ul class="list-group">
+    <li class="list-group-item">HTML</li>
+</ul>
+
+Creates a basic Bootstrap list.
+
+=========================================
+Active Item
+=========================================
+
+<li class="list-group-item active">
+
+Highlights the active item.
+
+=========================================
+Disabled Item
+=========================================
+
+<li class="list-group-item disabled">
+
+Displays a disabled item.
+
+=========================================
+Numbered List
+=========================================
+
+<ol class="list-group list-group-numbered">
+
+Creates a numbered list.
+
+=========================================
+Flush List
+=========================================
+
+<ul class="list-group list-group-flush">
+
+Removes the outer border of the list.
+
+=========================================
+When to Use?
+=========================================
+
+Sidebar Menu
+
+Course List
+
+Task List
+
+Settings Page
+
+Notification List
+
+User Profile Menu
+
+Admin Dashboard
+
+=========================================
+Interview Questions
+=========================================
+
+Q1. What is a Bootstrap List Group?
+
+Answer:
+A component used to display a styled list of items.
+
+-----------------------------------------
+
+Q2. Which class creates the main list?
+
+Answer:
+list-group
+
+-----------------------------------------
+
+Q3. Which class creates each list item?
+
+Answer:
+list-group-item
+
+-----------------------------------------
+
+Q4. Which class highlights the selected item?
+
+Answer:
+active
+
+-----------------------------------------
+
+Q5. Which class disables a list item?
+
+Answer:
+disabled
+
+-----------------------------------------
+
+Q6. Which class creates a numbered list?
+
+Answer:
+list-group-numbered
+
+-----------------------------------------
+
+Q7. Which class removes the outer border?
+
+Answer:
+list-group-flush
+
+=========================================
+Common Mistakes
+=========================================
+
+❌ listgroup
+✅ list-group
+
+❌ list-item
+✅ list-group-item
+
+❌ actve
+✅ active
+
+❌ disable
+✅ disabled
+
+=========================================
+One-Line Revision
+=========================================
+
+list-group → Main List
+
+list-group-item → List Item
+
+active → Active Item
+
+disabled → Disabled Item
+
+list-group-numbered → Numbered List
+
+list-group-flush → Borderless List
+
+=========================================
+Real Project Use
+=========================================
+
+Admin Dashboard
+
+Sidebar Navigation
+
+Settings Page
+
+Course List
+
+Student Management System
+
+Employee Management System
+
+Task Management App
+
+Notification Panel
+
+=========================================
+End of Topic 15
+=========================================
