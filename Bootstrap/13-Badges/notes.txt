@@ -1,0 +1,207 @@
+# Bootstrap Topic 13
+# Badges
+
+=========================================
+What are Bootstrap Badges?
+=========================================
+
+Bootstrap Badges are small labels used to display notifications, counts, status, or short information.
+
+=========================================
+Why Use Bootstrap Badges?
+=========================================
+
+- Show Notifications
+- Display Counts
+- Attractive UI
+- Responsive Design
+- Easy to Use
+- Less Custom CSS
+
+=========================================
+Important Badge Classes
+=========================================
+
+badge
+→ Creates a badge.
+
+bg-primary
+→ Blue badge.
+
+bg-success
+→ Green badge.
+
+bg-danger
+→ Red badge.
+
+bg-warning
+→ Yellow badge.
+
+bg-info
+→ Sky blue badge.
+
+bg-secondary
+→ Gray badge.
+
+rounded-pill
+→ Creates a pill-shaped badge.
+
+=========================================
+Basic Badge
+=========================================
+
+<span class="badge bg-primary">
+New
+</span>
+
+Creates a simple badge.
+
+=========================================
+Notification Badge
+=========================================
+
+<span class="badge bg-danger rounded-pill">
+5
+</span>
+
+Displays notification count.
+
+=========================================
+Status Badge
+=========================================
+
+<span class="badge bg-success">
+Active
+</span>
+
+Displays status.
+
+=========================================
+Pill Badge
+=========================================
+
+<span class="badge bg-primary rounded-pill">
+12
+</span>
+
+Creates a rounded badge.
+
+=========================================
+When to Use?
+=========================================
+
+Notification Count
+
+Unread Messages
+
+Shopping Cart
+
+Order Status
+
+User Status
+
+Product Labels
+
+Admin Dashboard
+
+=========================================
+Interview Questions
+=========================================
+
+Q1. What is a Bootstrap Badge?
+
+Answer:
+A small label used to display notifications, counts, or status.
+
+-----------------------------------------
+
+Q2. Which class creates a badge?
+
+Answer:
+badge
+
+-----------------------------------------
+
+Q3. Which class creates a pill-shaped badge?
+
+Answer:
+rounded-pill
+
+-----------------------------------------
+
+Q4. Which class is mostly used for notifications?
+
+Answer:
+bg-danger
+
+-----------------------------------------
+
+Q5. Which class is used for success status?
+
+Answer:
+bg-success
+
+-----------------------------------------
+
+Q6. Can badges be used inside headings and buttons?
+
+Answer:
+Yes.
+
+=========================================
+Common Mistakes
+=========================================
+
+❌ bage
+✅ badge
+
+❌ bootstrap.mln.css
+✅ bootstrap.min.css
+
+❌ bg-sucess
+✅ bg-success
+
+❌ roundedpill
+✅ rounded-pill
+
+=========================================
+One-Line Revision
+=========================================
+
+badge → Main Badge
+
+bg-primary → Blue Badge
+
+bg-success → Green Badge
+
+bg-danger → Red Badge
+
+bg-warning → Yellow Badge
+
+bg-info → Info Badge
+
+rounded-pill → Rounded Badge
+
+=========================================
+Real Project Use
+=========================================
+
+E-Commerce Website
+
+Shopping Cart
+
+Notification System
+
+Chat Application
+
+Admin Dashboard
+
+Portfolio Website
+
+School Management System
+
+Employee Management System
+
+=========================================
+End of Topic 13
+=========================================
