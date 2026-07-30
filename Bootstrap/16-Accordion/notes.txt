@@ -1,0 +1,227 @@
+# Bootstrap Topic 16
+# Accordion
+
+=========================================
+What is Bootstrap Accordion?
+=========================================
+
+Bootstrap Accordion is a component used to show and hide content by clicking on a header.
+
+=========================================
+Why Use Bootstrap Accordion?
+=========================================
+
+- Professional UI
+- Saves Screen Space
+- Responsive Design
+- Easy Navigation
+- Less Custom CSS
+- User Friendly
+
+=========================================
+Important Accordion Classes
+=========================================
+
+accordion
+→ Main accordion container.
+
+accordion-item
+→ Creates an accordion section.
+
+accordion-header
+→ Creates the heading.
+
+accordion-button
+→ Clickable button to open/close content.
+
+accordion-collapse
+→ Contains the collapsible content.
+
+accordion-body
+→ Stores the content inside the accordion.
+
+collapse
+→ Hides the content by default.
+
+show
+→ Displays the content by default.
+
+=========================================
+Basic Accordion
+=========================================
+
+<div class="accordion">
+
+Creates the main accordion container.
+
+-----------------------------------------
+
+<div class="accordion-item">
+
+Creates one accordion item.
+
+-----------------------------------------
+
+<h2 class="accordion-header">
+
+Creates the accordion heading.
+
+-----------------------------------------
+
+<button class="accordion-button">
+
+Creates the clickable button.
+
+-----------------------------------------
+
+<div class="accordion-collapse collapse">
+
+Creates the collapsible section.
+
+-----------------------------------------
+
+<div class="accordion-body">
+
+Stores the accordion content.
+
+=========================================
+When to Use?
+=========================================
+
+FAQ Section
+
+Help Center
+
+Documentation
+
+Admin Dashboard
+
+Settings Page
+
+Course Modules
+
+Product Details
+
+Support Page
+
+=========================================
+Interview Questions
+=========================================
+
+Q1. What is Bootstrap Accordion?
+
+Answer:
+A Bootstrap component used to show and hide content.
+
+-----------------------------------------
+
+Q2. Which class creates the main accordion?
+
+Answer:
+accordion
+
+-----------------------------------------
+
+Q3. Which class creates an accordion item?
+
+Answer:
+accordion-item
+
+-----------------------------------------
+
+Q4. Which class creates the clickable button?
+
+Answer:
+accordion-button
+
+-----------------------------------------
+
+Q5. Which class contains the accordion content?
+
+Answer:
+accordion-body
+
+-----------------------------------------
+
+Q6. Which class hides the accordion content?
+
+Answer:
+collapse
+
+-----------------------------------------
+
+Q7. Which class opens the accordion by default?
+
+Answer:
+show
+
+=========================================
+Common Mistakes
+=========================================
+
+❌ accordian
+✅ accordion
+
+❌ accordion-items
+✅ accordion-item
+
+❌ accordion-btn
+✅ accordion-button
+
+❌ accordion-collapsee
+✅ accordion-collapse
+
+❌ data-bs-target="#item"
+(id missing)
+
+✅ data-bs-target="#item1"
+
+and
+
+id="item1"
+
+Both must match.
+
+=========================================
+One-Line Revision
+=========================================
+
+accordion → Main Container
+
+accordion-item → Accordion Section
+
+accordion-header → Heading
+
+accordion-button → Click Button
+
+accordion-collapse → Collapsible Area
+
+accordion-body → Content
+
+collapse → Hide Content
+
+show → Open Content
+
+=========================================
+Real Project Use
+=========================================
+
+FAQ Page
+
+Help Center
+
+Documentation
+
+Portfolio Website
+
+Admin Dashboard
+
+Course Website
+
+Product Details
+
+Support Portal
+
+=========================================
+End of Topic 16
+=========================================

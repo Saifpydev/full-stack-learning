@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Accordion</title>
+    <link
+      rel="stylesheet"
+      href="../bootstrap-5.3.8-dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="accordion" id="faq">
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button
+            class="accordion-button"
+            data-bs-toggle="collapse"
+            data-bs-target="#item1"
+          >
+            What is Bootstrap
+          </button>
+        </h2>
+        <div
+          class="item1"
+          class="accordion-collapse collapse show"
+          data-bs-parent="#faq"
+        >
+          <div class="accordion-body">
+            Bootstrap is a CSS framework used to build responsive website.
+          </div>
+        </div>
+      </div>
+      <button class="btn btn-primary mt-3" id="btn">Show Message</button>
+    </div>
+    <script src="../bootstrap-5.3.8-dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
