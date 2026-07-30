@@ -1,0 +1,249 @@
+# Bootstrap Topic 12
+# Alerts
+
+=========================================
+What are Bootstrap Alerts?
+=========================================
+
+Bootstrap Alerts are ready-made components used to display important messages, notifications, warnings, errors, and success messages.
+
+=========================================
+Why Use Bootstrap Alerts?
+=========================================
+
+- Professional Notifications
+- Responsive Design
+- Easy to Use
+- Better User Experience
+- Less Custom CSS
+
+=========================================
+Important Alert Classes
+=========================================
+
+alert
+→ Main alert container.
+
+alert-primary
+→ Blue information alert.
+
+alert-secondary
+→ Gray alert.
+
+alert-success
+→ Success message.
+
+alert-danger
+→ Error or danger message.
+
+alert-warning
+→ Warning message.
+
+alert-info
+→ Information message.
+
+alert-light
+→ Light-colored alert.
+
+alert-dark
+→ Dark-colored alert.
+
+alert-dismissible
+→ Allows the user to close the alert.
+
+btn-close
+→ Close button for alert.
+
+fade
+→ Adds fade animation.
+
+show
+→ Displays the alert.
+
+=========================================
+Basic Alert
+=========================================
+
+<div class="alert alert-primary">
+
+Creates a basic Bootstrap alert.
+
+=========================================
+Success Alert
+=========================================
+
+<div class="alert alert-success">
+
+Shows a success message.
+
+=========================================
+Danger Alert
+=========================================
+
+<div class="alert alert-danger">
+
+Shows an error message.
+
+=========================================
+Warning Alert
+=========================================
+
+<div class="alert alert-warning">
+
+Shows a warning message.
+
+=========================================
+Dismissible Alert
+=========================================
+
+<div class="alert alert-success alert-dismissible fade show">
+
+Allows the user to close the alert.
+
+=========================================
+Close Button
+=========================================
+
+<button class="btn-close"
+data-bs-dismiss="alert"></button>
+
+Closes the alert.
+
+=========================================
+When to Use?
+=========================================
+
+Login Success
+
+Registration Success
+
+Payment Successful
+
+Payment Failed
+
+Profile Updated
+
+Password Changed
+
+Warning Messages
+
+Form Validation
+
+=========================================
+Interview Questions
+=========================================
+
+Q1. What is a Bootstrap Alert?
+
+Answer:
+A component used to display notifications and important messages.
+
+-----------------------------------------
+
+Q2. Which class creates a Bootstrap alert?
+
+Answer:
+alert
+
+-----------------------------------------
+
+Q3. Which class displays a success message?
+
+Answer:
+alert-success
+
+-----------------------------------------
+
+Q4. Which class displays an error message?
+
+Answer:
+alert-danger
+
+-----------------------------------------
+
+Q5. Which class displays a warning message?
+
+Answer:
+alert-warning
+
+-----------------------------------------
+
+Q6. Which class creates a closable alert?
+
+Answer:
+alert-dismissible
+
+-----------------------------------------
+
+Q7. Which class creates the close button?
+
+Answer:
+btn-close
+
+-----------------------------------------
+
+Q8. Why are fade and show used?
+
+Answer:
+To apply animation and make the alert visible.
+
+=========================================
+Common Mistakes
+=========================================
+
+❌ alart-success
+✅ alert-success
+
+❌ btnclose
+✅ btn-close
+
+❌ Forgetting bootstrap.bundle.min.js
+✅ Include bootstrap.bundle.min.js
+
+=========================================
+One-Line Revision
+=========================================
+
+alert → Main Alert
+
+alert-primary → Blue Alert
+
+alert-success → Success Alert
+
+alert-danger → Error Alert
+
+alert-warning → Warning Alert
+
+alert-info → Information Alert
+
+alert-dismissible → Closable Alert
+
+btn-close → Close Button
+
+fade → Animation
+
+show → Visible Alert
+
+=========================================
+Real Project Use
+=========================================
+
+Login Page
+
+Registration Form
+
+Payment Gateway
+
+Profile Update
+
+Student Management System
+
+Employee Management System
+
+E-Commerce Website
+
+Admin Dashboard
+
+=========================================
+End of Topic 12
+=========================================
