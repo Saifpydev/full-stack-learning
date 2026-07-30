@@ -1,0 +1,219 @@
+# Bootstrap Topic 14
+# Progress Bars
+
+=========================================
+What are Bootstrap Progress Bars?
+=========================================
+
+Bootstrap Progress Bars are used to display the progress of a task, upload, download, loading process, or completion percentage.
+
+=========================================
+Why Use Bootstrap Progress Bars?
+=========================================
+
+- Show Task Progress
+- Professional UI
+- Responsive Design
+- Easy to Customize
+- Better User Experience
+- Less Custom CSS
+
+=========================================
+Important Progress Classes
+=========================================
+
+progress
+→ Main progress container.
+
+progress-bar
+→ Displays the progress.
+
+bg-success
+→ Green progress bar.
+
+bg-danger
+→ Red progress bar.
+
+bg-warning
+→ Yellow progress bar.
+
+bg-primary
+→ Blue progress bar.
+
+progress-bar-striped
+→ Adds striped effect.
+
+progress-bar-animated
+→ Adds animation.
+
+=========================================
+Basic Progress Bar
+=========================================
+
+<div class="progress">
+    <div class="progress-bar" style="width:50%">
+        50%
+    </div>
+</div>
+
+Creates a simple progress bar.
+
+=========================================
+Striped Progress Bar
+=========================================
+
+<div class="progress-bar progress-bar-striped">
+
+Creates a striped progress bar.
+
+=========================================
+Animated Progress Bar
+=========================================
+
+<div class="progress-bar progress-bar-striped progress-bar-animated">
+
+Creates an animated progress bar.
+
+=========================================
+Colored Progress Bars
+=========================================
+
+bg-success → Green
+
+bg-danger → Red
+
+bg-warning → Yellow
+
+bg-primary → Blue
+
+=========================================
+When to Use?
+=========================================
+
+File Upload
+
+File Download
+
+Course Completion
+
+Profile Completion
+
+Dashboard Analytics
+
+Loading Screen
+
+Portfolio Skill Progress
+
+=========================================
+Interview Questions
+=========================================
+
+Q1. What is a Bootstrap Progress Bar?
+
+Answer:
+A component used to display the progress of a task.
+
+-----------------------------------------
+
+Q2. Which class creates the progress container?
+
+Answer:
+progress
+
+-----------------------------------------
+
+Q3. Which class creates the progress indicator?
+
+Answer:
+progress-bar
+
+-----------------------------------------
+
+Q4. Which class creates a striped progress bar?
+
+Answer:
+progress-bar-striped
+
+-----------------------------------------
+
+Q5. Which class creates an animated progress bar?
+
+Answer:
+progress-bar-animated
+
+-----------------------------------------
+
+Q6. Which classes change the progress bar color?
+
+Answer:
+bg-success
+bg-danger
+bg-warning
+bg-primary
+
+-----------------------------------------
+
+Q7. Can we display percentage inside the progress bar?
+
+Answer:
+Yes.
+
+=========================================
+Common Mistakes
+=========================================
+
+❌ progres
+✅ progress
+
+❌ progres-bar
+✅ progress-bar
+
+❌ progress-strip
+✅ progress-bar-striped
+
+❌ progress-animation
+✅ progress-bar-animated
+
+=========================================
+One-Line Revision
+=========================================
+
+progress → Main Container
+
+progress-bar → Progress Indicator
+
+bg-success → Green Progress
+
+bg-danger → Red Progress
+
+bg-warning → Yellow Progress
+
+bg-primary → Blue Progress
+
+progress-bar-striped → Striped Effect
+
+progress-bar-animated → Animated Effect
+
+=========================================
+Real Project Use
+=========================================
+
+Portfolio Skills Section
+
+File Upload System
+
+Course Progress
+
+Student Dashboard
+
+Employee Dashboard
+
+Admin Panel
+
+Analytics Dashboard
+
+Loading Screen
+
+=========================================
+End of Topic 14
+=========================================
