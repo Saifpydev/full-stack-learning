@@ -1,0 +1,237 @@
+# Bootstrap Topic 17
+# Modal
+
+=========================================
+What is Bootstrap Modal?
+=========================================
+
+Bootstrap Modal is a popup dialog box that appears on top of a webpage.
+
+=========================================
+Why Use Bootstrap Modal?
+=========================================
+
+- Professional UI
+- Responsive Design
+- Login & Signup Forms
+- Confirmation Dialog
+- User Notifications
+- Less Custom CSS
+
+=========================================
+Important Modal Classes
+=========================================
+
+modal
+→ Main modal container.
+
+modal-dialog
+→ Controls modal size and position.
+
+modal-content
+→ Main modal box.
+
+modal-header
+→ Modal heading section.
+
+modal-title
+→ Displays modal title.
+
+modal-body
+→ Main modal content.
+
+modal-footer
+→ Footer section for buttons.
+
+btn-close
+→ Close button.
+
+fade
+→ Adds opening/closing animation.
+
+=========================================
+Important Data Attributes
+=========================================
+
+data-bs-toggle="modal"
+→ Opens the modal.
+
+data-bs-target="#myModal"
+→ Selects the modal by ID.
+
+data-bs-dismiss="modal"
+→ Closes the modal.
+
+=========================================
+Basic Modal Structure
+=========================================
+
+<div class="modal">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<div class="modal-body">
+<div class="modal-footer">
+
+Creates a complete Bootstrap Modal.
+
+=========================================
+When to Use?
+=========================================
+
+Login Form
+
+Signup Form
+
+Delete Confirmation
+
+Logout Confirmation
+
+Contact Form
+
+Product Preview
+
+Portfolio Projects
+
+Notifications
+
+=========================================
+Interview Questions
+=========================================
+
+Q1. What is Bootstrap Modal?
+
+Answer:
+A popup dialog box used to display content on top of a webpage.
+
+-----------------------------------------
+
+Q2. Which class creates the main modal?
+
+Answer:
+modal
+
+-----------------------------------------
+
+Q3. Which class controls the modal size?
+
+Answer:
+modal-dialog
+
+-----------------------------------------
+
+Q4. Which class creates the modal content?
+
+Answer:
+modal-content
+
+-----------------------------------------
+
+Q5. Which class creates the modal body?
+
+Answer:
+modal-body
+
+-----------------------------------------
+
+Q6. Which class creates the modal footer?
+
+Answer:
+modal-footer
+
+-----------------------------------------
+
+Q7. Which class creates the close button?
+
+Answer:
+btn-close
+
+-----------------------------------------
+
+Q8. Which attribute opens the modal?
+
+Answer:
+data-bs-toggle="modal"
+
+-----------------------------------------
+
+Q9. Which attribute closes the modal?
+
+Answer:
+data-bs-dismiss="modal"
+
+=========================================
+Common Mistakes
+=========================================
+
+❌ model
+✅ modal
+
+❌ data-bs-toggle="model"
+✅ data-bs-toggle="modal"
+
+❌ btnclose
+✅ btn-close
+
+❌ modal-dialogue
+✅ modal-dialog
+
+❌ data-bs-target="#modal"
+
+When modal ID is:
+
+id="myModal"
+
+Then target must be:
+
+data-bs-target="#myModal"
+
+=========================================
+One-Line Revision
+=========================================
+
+modal → Main Popup
+
+modal-dialog → Modal Container
+
+modal-content → Main Box
+
+modal-header → Header
+
+modal-title → Title
+
+modal-body → Content
+
+modal-footer → Footer
+
+btn-close → Close Button
+
+fade → Animation
+
+data-bs-toggle="modal" → Open Modal
+
+data-bs-dismiss="modal" → Close Modal
+
+=========================================
+Real Project Use
+=========================================
+
+Login System
+
+Signup Page
+
+Delete Confirmation
+
+Logout Popup
+
+Contact Form
+
+Portfolio Website
+
+Product Preview
+
+Admin Dashboard
+
+=========================================
+End of Topic 17
+=========================================
