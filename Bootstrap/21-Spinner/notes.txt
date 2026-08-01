@@ -1,0 +1,223 @@
+# Bootstrap Topic 21
+# Spinners
+
+=========================================
+What are Bootstrap Spinners?
+=========================================
+
+Bootstrap Spinners are loading indicators used to show that a process is running.
+
+=========================================
+Why Use Bootstrap Spinners?
+=========================================
+
+- Loading Animation
+- Better User Experience
+- Responsive Design
+- Easy to Use
+- Less Custom CSS
+
+=========================================
+Important Spinner Classes
+=========================================
+
+spinner-border
+→ Border loading spinner.
+
+spinner-grow
+→ Growing loading spinner.
+
+spinner-border-sm
+→ Small border spinner.
+
+spinner-grow-sm
+→ Small grow spinner.
+
+text-primary
+→ Blue spinner.
+
+text-success
+→ Green spinner.
+
+text-danger
+→ Red spinner.
+
+text-warning
+→ Yellow spinner.
+
+=========================================
+Basic Spinner
+=========================================
+
+<div class="spinner-border"></div>
+
+Creates a border loading spinner.
+
+-----------------------------------------
+
+<div class="spinner-grow"></div>
+
+Creates a growing loading spinner.
+
+=========================================
+Small Spinner
+=========================================
+
+<div class="spinner-border spinner-border-sm"></div>
+
+Creates a small spinner.
+
+=========================================
+Colored Spinner
+=========================================
+
+text-primary
+→ Blue
+
+text-success
+→ Green
+
+text-danger
+→ Red
+
+text-warning
+→ Yellow
+
+=========================================
+Spinner in Button
+=========================================
+
+<button class="btn btn-primary">
+
+Loading...
+
+<span class="spinner-border spinner-border-sm"></span>
+
+</button>
+
+Displays a loading spinner inside a button.
+
+=========================================
+When to Use?
+=========================================
+
+Page Loading
+
+API Request
+
+File Upload
+
+File Download
+
+Login Process
+
+Payment Processing
+
+Dashboard Loading
+
+=========================================
+Interview Questions
+=========================================
+
+Q1. What is Bootstrap Spinner?
+
+Answer:
+A loading indicator used while a task is processing.
+
+-----------------------------------------
+
+Q2. Which class creates a border spinner?
+
+Answer:
+spinner-border
+
+-----------------------------------------
+
+Q3. Which class creates a grow spinner?
+
+Answer:
+spinner-grow
+
+-----------------------------------------
+
+Q4. Which class creates a small spinner?
+
+Answer:
+spinner-border-sm
+
+-----------------------------------------
+
+Q5. Which classes change spinner color?
+
+Answer:
+text-primary
+text-success
+text-danger
+text-warning
+
+-----------------------------------------
+
+Q6. Can a spinner be used inside a button?
+
+Answer:
+Yes.
+
+=========================================
+Common Mistakes
+=========================================
+
+❌ spiner-border
+✅ spinner-border
+
+❌ spinnergrow
+✅ spinner-grow
+
+❌ spinner-small
+✅ spinner-border-sm
+
+❌ text-sucess
+✅ text-success
+
+=========================================
+One-Line Revision
+=========================================
+
+spinner-border → Border Spinner
+
+spinner-grow → Grow Spinner
+
+spinner-border-sm → Small Border Spinner
+
+spinner-grow-sm → Small Grow Spinner
+
+text-primary → Blue
+
+text-success → Green
+
+text-danger → Red
+
+text-warning → Yellow
+
+=========================================
+Real Project Use
+=========================================
+
+Login Page
+
+Signup Page
+
+Payment Gateway
+
+File Upload
+
+API Loading
+
+Dashboard
+
+E-Commerce Website
+
+Portfolio Website
+
+=========================================
+End of Topic 21
+=========================================
