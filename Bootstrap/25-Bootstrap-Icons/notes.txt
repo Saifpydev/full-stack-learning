@@ -1,0 +1,185 @@
+# Bootstrap Topic 25
+# Bootstrap Icons
+
+=========================================
+What are Bootstrap Icons?
+=========================================
+
+Bootstrap Icons are a free icon library used with Bootstrap to add beautiful and professional icons to websites.
+
+=========================================
+Why Use Bootstrap Icons?
+=========================================
+
+- Easy to Use
+- Professional UI
+- Responsive
+- Lightweight
+- Free
+- Modern Design
+
+=========================================
+Installation
+=========================================
+
+Include Bootstrap Icons CDN.
+
+<link rel="stylesheet"
+href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+=========================================
+Basic Syntax
+=========================================
+
+<i class="bi bi-house-fill"></i>
+
+=========================================
+Common Bootstrap Icons
+=========================================
+
+bi-house-fill
+→ Home Icon
+
+bi-person-fill
+→ User Icon
+
+bi-search
+→ Search Icon
+
+bi-heart-fill
+→ Heart Icon
+
+bi-cart-fill
+→ Shopping Cart Icon
+
+bi-download
+→ Download Icon
+
+bi-envelope-fill
+→ Email Icon
+
+bi-telephone-fill
+→ Phone Icon
+
+bi-github
+→ GitHub Icon
+
+bi-linkedin
+→ LinkedIn Icon
+
+=========================================
+Useful Bootstrap Classes
+=========================================
+
+bi
+→ Base icon class
+
+text-primary
+→ Blue icon
+
+text-success
+→ Green icon
+
+text-danger
+→ Red icon
+
+fs-1
+→ Large icon size
+
+fs-3
+→ Medium icon size
+
+=========================================
+Interview Questions
+=========================================
+
+Q1. What are Bootstrap Icons?
+
+Answer:
+A free icon library used with Bootstrap.
+
+-----------------------------------------
+
+Q2. Which class is required for every icon?
+
+Answer:
+bi
+
+-----------------------------------------
+
+Q3. Which icon is used for Home?
+
+Answer:
+bi-house-fill
+
+-----------------------------------------
+
+Q4. Which icon is used for Search?
+
+Answer:
+bi-search
+
+-----------------------------------------
+
+Q5. Which icon is used for Shopping Cart?
+
+Answer:
+bi-cart-fill
+
+=========================================
+Common Mistakes
+=========================================
+
+❌ Forgetting Bootstrap Icons CDN
+
+❌ Writing house-fill only
+
+✅ bi bi-house-fill
+
+❌ Missing "bi" class
+
+=========================================
+One-Line Revision
+=========================================
+
+bi → Base Icon Class
+
+bi-house-fill → Home
+
+bi-person-fill → Profile
+
+bi-search → Search
+
+bi-heart-fill → Heart
+
+bi-cart-fill → Cart
+
+bi-download → Download
+
+=========================================
+Real Project Uses
+=========================================
+
+Portfolio Website
+
+Admin Dashboard
+
+E-Commerce Website
+
+Company Website
+
+Landing Page
+
+Blog Website
+
+Login Form
+
+Navigation Bar
+
+Buttons
+
+Footer
+
+=========================================
+End of Topic 25
+=========================================
