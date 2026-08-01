@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Scrollspy</title>
+    <link
+      rel="stylesheet"
+      href="../bootstrap-5.3.8-dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body data-bs-spy="scroll" data-bs-target="#navbar" tabindex="0">
+    <nav id="navbar" class="navbar navbar-dark bg-dark sticky-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">MySite</a>
+        <div class="nav">
+          <a class="nav-link active" href="#home">Home</a>
+          <a class="nav-link active" href="#About">About</a>
+          <a class="nav-link active" href="#Contact">contact</a>
+        </div>
+      </div>
+    </nav>
+    <section id="home" class="p-5 bg-primary text-white"><h2>Home</h2></section>
+    <section id="about" class="p-5 bg-primary text-white">
+      <h2>About</h2>
+    </section>
+    <section id="contact" class="p-5 bg-success text-white">
+      <h2>Contact</h2>
+    </section>
+    <script src="../bootstrap-5.3.8-dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

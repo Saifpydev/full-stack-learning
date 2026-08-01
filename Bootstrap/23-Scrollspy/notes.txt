@@ -1,0 +1,155 @@
+# Bootstrap Topic 23
+# Scrollspy
+
+=========================================
+What is Bootstrap Scrollspy?
+=========================================
+
+Bootstrap Scrollspy automatically updates the active navigation link while the user scrolls through the page.
+
+=========================================
+Why Use Scrollspy?
+=========================================
+
+- One Page Website
+- Portfolio Website
+- Landing Page
+- Better Navigation
+- Better User Experience
+
+=========================================
+Important Attributes
+=========================================
+
+data-bs-spy="scroll"
+→ Enables Scrollspy.
+
+data-bs-target="#navbar"
+→ Connects Scrollspy with the navbar.
+
+tabindex="0"
+→ Makes the scroll area focusable.
+
+=========================================
+Important Classes
+=========================================
+
+navbar
+→ Navigation bar.
+
+nav
+→ Navigation container.
+
+nav-item
+→ Navigation item.
+
+nav-link
+→ Navigation link.
+
+active
+→ Highlights the active link.
+
+sticky-top
+→ Keeps navbar fixed at the top while scrolling.
+
+=========================================
+Basic Syntax
+=========================================
+
+<body
+data-bs-spy="scroll"
+data-bs-target="#navbar"
+tabindex="0">
+
+<nav id="navbar">
+...
+</nav>
+
+</body>
+
+=========================================
+Interview Questions
+=========================================
+
+Q1. What is Bootstrap Scrollspy?
+
+Answer:
+Scrollspy automatically updates navigation links while scrolling.
+
+-----------------------------------------
+
+Q2. Which attribute enables Scrollspy?
+
+Answer:
+data-bs-spy="scroll"
+
+-----------------------------------------
+
+Q3. Which attribute connects the navbar?
+
+Answer:
+data-bs-target="#navbar"
+
+-----------------------------------------
+
+Q4. Which class highlights the active link?
+
+Answer:
+active
+
+-----------------------------------------
+
+Q5. Which class keeps the navbar at the top?
+
+Answer:
+sticky-top
+
+=========================================
+Common Mistakes
+=========================================
+
+❌ data-bs-spy="scrol"
+✅ data-bs-spy="scroll"
+
+❌ data-bs-target="navbar"
+✅ data-bs-target="#navbar"
+
+❌ Forgetting tabindex="0"
+
+❌ Section id and nav href do not match.
+
+=========================================
+One-Line Revision
+=========================================
+
+data-bs-spy="scroll" → Enable Scrollspy
+
+data-bs-target="#navbar" → Connect Navbar
+
+nav-link → Navigation Link
+
+active → Active Link
+
+sticky-top → Sticky Navbar
+
+tabindex="0" → Focusable Scroll Area
+
+=========================================
+Real Project Uses
+=========================================
+
+Portfolio Website
+
+Landing Page
+
+Company Website
+
+Documentation Website
+
+Product Website
+
+One Page Website
+
+=========================================
+End of Topic 23
+=========================================
