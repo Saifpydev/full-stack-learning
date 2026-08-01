@@ -1,0 +1,175 @@
+# Bootstrap Topic 27
+# Responsive Breakpoints
+
+=========================================
+What are Bootstrap Breakpoints?
+=========================================
+
+Bootstrap Breakpoints are predefined screen sizes used to create responsive websites.
+
+=========================================
+Why Use Breakpoints?
+=========================================
+
+- Responsive Design
+- Mobile Friendly
+- Tablet Support
+- Desktop Layout
+- Better User Experience
+
+=========================================
+Bootstrap Breakpoints
+=========================================
+
+xs  → <576px
+
+sm  → ≥576px
+
+md  → ≥768px
+
+lg  → ≥992px
+
+xl  → ≥1200px
+
+xxl → ≥1400px
+
+=========================================
+Important Classes
+=========================================
+
+col-12
+→ Full width on all devices.
+
+col-sm-6
+→ 2 columns on small devices.
+
+col-md-6
+→ 2 columns on tablets.
+
+col-lg-4
+→ 3 columns on large screens.
+
+col-xl-3
+→ 4 columns on extra large screens.
+
+row
+→ Creates a row.
+
+container
+→ Main responsive container.
+
+g-3
+→ Adds gap between columns.
+
+=========================================
+Common Responsive Classes
+=========================================
+
+col-12
+
+col-sm-6
+
+col-md-6
+
+col-lg-4
+
+col-xl-3
+
+=========================================
+Interview Questions
+=========================================
+
+Q1. What are Bootstrap Breakpoints?
+
+Answer:
+Predefined screen sizes used for responsive layouts.
+
+-----------------------------------------
+
+Q2. Which breakpoint is used for tablets?
+
+Answer:
+md
+
+-----------------------------------------
+
+Q3. Which breakpoint is used for laptops?
+
+Answer:
+lg
+
+-----------------------------------------
+
+Q4. Which class creates a full-width column?
+
+Answer:
+col-12
+
+-----------------------------------------
+
+Q5. Which class creates 3 columns on large screens?
+
+Answer:
+col-lg-4
+
+=========================================
+Common Mistakes
+=========================================
+
+❌ col-md4
+✅ col-md-4
+
+❌ col-lg6
+✅ col-lg-6
+
+❌ Missing row class
+✅ Always wrap columns inside a row.
+
+❌ Missing container
+✅ Use container or container-fluid.
+
+=========================================
+One-Line Revision
+=========================================
+
+xs → Extra Small
+
+sm → Small
+
+md → Tablet
+
+lg → Laptop
+
+xl → Desktop
+
+xxl → Large Desktop
+
+col-12 → Full Width
+
+col-md-6 → 2 Columns
+
+col-lg-4 → 3 Columns
+
+=========================================
+Real Project Uses
+=========================================
+
+Portfolio Website
+
+E-Commerce Website
+
+Admin Dashboard
+
+Landing Page
+
+Company Website
+
+Blog Website
+
+News Website
+
+Business Website
+
+=========================================
+End of Topic 27
+=========================================
