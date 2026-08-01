@@ -1,0 +1,187 @@
+# Bootstrap Topic 19
+# Toast
+
+=========================================
+What is Bootstrap Toast?
+=========================================
+
+Bootstrap Toast is a lightweight notification popup used to display short messages to users.
+
+=========================================
+Why Use Bootstrap Toast?
+=========================================
+
+- Professional Notifications
+- Responsive Design
+- Easy to Use
+- Better User Experience
+- Less Custom CSS
+
+=========================================
+Important Toast Classes
+=========================================
+
+toast
+→ Main toast container.
+
+toast-header
+→ Toast heading section.
+
+toast-body
+→ Toast message section.
+
+show
+→ Displays the toast.
+
+hide
+→ Hides the toast.
+
+btn-close
+→ Close button.
+
+me-auto
+→ Pushes the close button to the right.
+
+=========================================
+Important JavaScript
+=========================================
+
+new bootstrap.Toast(element)
+→ Creates a Toast object.
+
+toast.show()
+→ Shows the toast.
+
+=========================================
+When to Use?
+=========================================
+
+Login Success
+
+Registration Success
+
+Payment Successful
+
+Profile Updated
+
+Password Changed
+
+Order Confirmed
+
+Admin Dashboard
+
+Notification System
+
+=========================================
+Interview Questions
+=========================================
+
+Q1. What is Bootstrap Toast?
+
+Answer:
+A small notification popup used to display short messages.
+
+-----------------------------------------
+
+Q2. Which class creates the main Toast?
+
+Answer:
+toast
+
+-----------------------------------------
+
+Q3. Which class creates the Toast header?
+
+Answer:
+toast-header
+
+-----------------------------------------
+
+Q4. Which class creates the Toast body?
+
+Answer:
+toast-body
+
+-----------------------------------------
+
+Q5. Which method displays the Toast?
+
+Answer:
+toast.show()
+
+-----------------------------------------
+
+Q6. Which Bootstrap object is used to create a Toast?
+
+Answer:
+bootstrap.Toast()
+
+-----------------------------------------
+
+Q7. Which class creates the close button?
+
+Answer:
+btn-close
+
+=========================================
+Common Mistakes
+=========================================
+
+❌ tost
+✅ toast
+
+❌ toast-head
+✅ toast-header
+
+❌ toast-content
+✅ toast-body
+
+❌ new Toast()
+✅ new bootstrap.Toast()
+
+❌ showToast()
+✅ toast.show()
+
+=========================================
+One-Line Revision
+=========================================
+
+toast → Main Notification
+
+toast-header → Header
+
+toast-body → Message
+
+show → Display Toast
+
+hide → Hide Toast
+
+btn-close → Close Button
+
+bootstrap.Toast() → Create Toast
+
+toast.show() → Show Notification
+
+=========================================
+Real Project Use
+=========================================
+
+Login System
+
+Signup Page
+
+Profile Update
+
+Payment Success
+
+Order Confirmation
+
+Admin Dashboard
+
+Chat Notifications
+
+Portfolio Website
+
+=========================================
+End of Topic 19
+=========================================
