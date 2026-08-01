@@ -1,0 +1,241 @@
+# Bootstrap Topic 20
+# Offcanvas
+
+=========================================
+What is Bootstrap Offcanvas?
+=========================================
+
+Bootstrap Offcanvas is a sidebar component that slides into the screen from the left, right, top, or bottom.
+
+=========================================
+Why Use Bootstrap Offcanvas?
+=========================================
+
+- Responsive Sidebar
+- Mobile Navigation
+- Shopping Cart
+- Filter Panel
+- User Menu
+- Less Custom CSS
+
+=========================================
+Important Offcanvas Classes
+=========================================
+
+offcanvas
+→ Main offcanvas container.
+
+offcanvas-start
+→ Opens from the left.
+
+offcanvas-end
+→ Opens from the right.
+
+offcanvas-top
+→ Opens from the top.
+
+offcanvas-bottom
+→ Opens from the bottom.
+
+offcanvas-header
+→ Header section.
+
+offcanvas-title
+→ Sidebar title.
+
+offcanvas-body
+→ Main content section.
+
+btn-close
+→ Close button.
+
+=========================================
+Important Data Attributes
+=========================================
+
+data-bs-toggle="offcanvas"
+→ Opens the Offcanvas.
+
+data-bs-target="#menu"
+→ Targets the Offcanvas ID.
+
+data-bs-dismiss="offcanvas"
+→ Closes the Offcanvas.
+
+=========================================
+Basic Structure
+=========================================
+
+<div class="offcanvas offcanvas-start">
+
+<div class="offcanvas-header">
+
+<h5 class="offcanvas-title">
+
+<div class="offcanvas-body">
+
+Creates a complete Bootstrap Offcanvas.
+
+=========================================
+When to Use?
+=========================================
+
+Mobile Navigation
+
+Sidebar Menu
+
+Shopping Cart
+
+Filter Panel
+
+User Profile
+
+Settings Panel
+
+Admin Dashboard
+
+E-Commerce Website
+
+=========================================
+Interview Questions
+=========================================
+
+Q1. What is Bootstrap Offcanvas?
+
+Answer:
+A sidebar component that slides into the screen.
+
+-----------------------------------------
+
+Q2. Which class creates the main Offcanvas?
+
+Answer:
+offcanvas
+
+-----------------------------------------
+
+Q3. Which class opens the sidebar from the left?
+
+Answer:
+offcanvas-start
+
+-----------------------------------------
+
+Q4. Which class opens the sidebar from the right?
+
+Answer:
+offcanvas-end
+
+-----------------------------------------
+
+Q5. Which class creates the Offcanvas body?
+
+Answer:
+offcanvas-body
+
+-----------------------------------------
+
+Q6. Which class creates the Offcanvas title?
+
+Answer:
+offcanvas-title
+
+-----------------------------------------
+
+Q7. Which class creates the close button?
+
+Answer:
+btn-close
+
+-----------------------------------------
+
+Q8. Which attribute opens the Offcanvas?
+
+Answer:
+data-bs-toggle="offcanvas"
+
+-----------------------------------------
+
+Q9. Which attribute closes the Offcanvas?
+
+Answer:
+data-bs-dismiss="offcanvas"
+
+=========================================
+Common Mistakes
+=========================================
+
+❌ offcanva
+✅ offcanvas
+
+❌ offcanvas-head
+✅ offcanvas-header
+
+❌ offcanvas-content
+✅ offcanvas-body
+
+❌ data-bs-toggle="canvas"
+✅ data-bs-toggle="offcanvas"
+
+❌ data-bs-dismiss="canvas"
+✅ data-bs-dismiss="offcanvas"
+
+❌ Wrong ID in data-bs-target
+
+✅ data-bs-target="#menu"
+
+and
+
+id="menu"
+
+Both must match.
+
+=========================================
+One-Line Revision
+=========================================
+
+offcanvas → Main Sidebar
+
+offcanvas-start → Left Sidebar
+
+offcanvas-end → Right Sidebar
+
+offcanvas-top → Top Panel
+
+offcanvas-bottom → Bottom Panel
+
+offcanvas-header → Header
+
+offcanvas-title → Title
+
+offcanvas-body → Content
+
+btn-close → Close Button
+
+data-bs-toggle="offcanvas" → Open Sidebar
+
+data-bs-dismiss="offcanvas" → Close Sidebar
+
+=========================================
+Real Project Use
+=========================================
+
+Mobile Navigation
+
+Sidebar Menu
+
+Shopping Cart
+
+Product Filter
+
+Admin Dashboard
+
+User Profile
+
+Settings Panel
+
+Portfolio Website
+
+=========================================
+End of Topic 20
+=========================================
