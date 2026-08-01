@@ -1,0 +1,81 @@
+# 18. Bootstrap Carousel
+
+## Definition
+Bootstrap Carousel is a slideshow component used to display multiple images or content one by one with Previous and Next controls.
+
+## Uses
+- Image Slider
+- Portfolio Website
+- Product Gallery
+- Landing Page
+- Hero Section
+
+## Basic Classes
+- carousel
+- slide
+- carousel-inner
+- carousel-item
+- active
+- carousel-control-prev
+- carousel-control-next
+- carousel-control-prev-icon
+- carousel-control-next-icon
+- d-block
+- w-100
+
+## Previous Button
+
+data-bs-slide="prev"
+
+## Next Button
+
+data-bs-slide="next"
+
+## Important Attributes
+
+data-bs-target="#slider"
+data-bs-slide="prev"
+data-bs-slide="next"
+
+## Common Mistakes
+
+❌ data-bs-slider="prev"
+✅ data-bs-slide="prev"
+
+❌ data-bs-slider="next"
+✅ data-bs-slide="next"
+
+❌ Wrong data-bs-target ID
+✅ data-bs-target must match the Carousel ID.
+
+❌ Forgetting active class
+✅ First .carousel-item must have class="active"
+
+❌ Using bootstrap.min.js
+✅ Use bootstrap.bundle.min.js
+
+## Interview Questions
+
+Q1. What is Bootstrap Carousel?
+Ans: A Bootstrap component used to create image/content sliders.
+
+Q2. Which class creates a slide?
+Ans: carousel-item
+
+Q3. Which class makes the first slide visible?
+Ans: active
+
+Q4. Which attribute controls Previous and Next buttons?
+Ans: data-bs-slide
+
+Q5. Which class makes the image full width?
+Ans: w-100
+
+## Summary
+
+• Carousel is used to create sliders.
+• carousel-item represents one slide.
+• First slide must have active class.
+• Previous/Next buttons use data-bs-slide.
+• data-bs-target must match the carousel ID.
+• Always use bootstrap.bundle.min.js.
