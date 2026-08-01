@@ -1,0 +1,189 @@
+# Bootstrap Topic 27
+# Dropdown
+
+=========================================
+What is Bootstrap Dropdown?
+=========================================
+
+Bootstrap Dropdown is a toggleable menu that displays a list of options when a button or link is clicked.
+
+=========================================
+Why Use Dropdown?
+=========================================
+
+- Easy Navigation
+- Professional UI
+- Responsive Design
+- Saves Space
+- Better User Experience
+
+=========================================
+Important Dropdown Classes
+=========================================
+
+dropdown
+→ Main dropdown container.
+
+dropdown-toggle
+→ Button that opens the dropdown.
+
+dropdown-menu
+→ Dropdown menu.
+
+dropdown-item
+→ Menu item.
+
+dropdown-header
+→ Dropdown heading.
+
+dropdown-divider
+→ Divider line between menu items.
+
+=========================================
+Important Data Attribute
+=========================================
+
+data-bs-toggle="dropdown"
+
+→ Opens the dropdown menu.
+
+=========================================
+Basic Syntax
+=========================================
+
+<div class="dropdown">
+
+<button class="btn btn-primary dropdown-toggle"
+data-bs-toggle="dropdown">
+
+Menu
+
+</button>
+
+<ul class="dropdown-menu">
+
+<li><a class="dropdown-item" href="#">Home</a></li>
+
+</ul>
+
+</div>
+
+=========================================
+When to Use?
+=========================================
+
+Navigation Menu
+
+User Profile Menu
+
+Settings Menu
+
+Language Selector
+
+Category Menu
+
+Admin Dashboard
+
+E-Commerce Website
+
+=========================================
+Interview Questions
+=========================================
+
+Q1. What is Bootstrap Dropdown?
+
+Answer:
+A toggleable menu used to display multiple options.
+
+-----------------------------------------
+
+Q2. Which class creates the main dropdown?
+
+Answer:
+dropdown
+
+-----------------------------------------
+
+Q3. Which class creates the dropdown button?
+
+Answer:
+dropdown-toggle
+
+-----------------------------------------
+
+Q4. Which class creates the menu?
+
+Answer:
+dropdown-menu
+
+-----------------------------------------
+
+Q5. Which class creates menu items?
+
+Answer:
+dropdown-item
+
+-----------------------------------------
+
+Q6. Which attribute opens the dropdown?
+
+Answer:
+data-bs-toggle="dropdown"
+
+=========================================
+Common Mistakes
+=========================================
+
+❌ drop-down
+✅ dropdown
+
+❌ dropdown-items
+✅ dropdown-item
+
+❌ data-bs-toggle="drop"
+
+✅ data-bs-toggle="dropdown"
+
+❌ Forgetting bootstrap.bundle.min.js
+
+✅ Include bootstrap.bundle.min.js
+
+=========================================
+One-Line Revision
+=========================================
+
+dropdown → Main Container
+
+dropdown-toggle → Toggle Button
+
+dropdown-menu → Menu
+
+dropdown-item → Menu Item
+
+dropdown-header → Menu Heading
+
+dropdown-divider → Divider
+
+data-bs-toggle="dropdown" → Open Dropdown
+
+=========================================
+Real Project Uses
+=========================================
+
+Navigation Bar
+
+User Profile
+
+Account Settings
+
+Language Selector
+
+Admin Dashboard
+
+E-Commerce Website
+
+Portfolio Website
+
+=========================================
+End of Topic 27
+=========================================
