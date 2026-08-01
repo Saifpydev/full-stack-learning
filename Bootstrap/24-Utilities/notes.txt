@@ -1,0 +1,234 @@
+# Bootstrap Topic 25
+# Utilities
+
+=========================================
+What are Bootstrap Utilities?
+=========================================
+
+Bootstrap Utility Classes are predefined classes used to quickly style elements without writing custom CSS.
+
+=========================================
+Why Use Utilities?
+=========================================
+
+- Fast Development
+- Less Custom CSS
+- Clean Code
+- Responsive Design
+- Easy to Use
+
+=========================================
+Important Utility Classes
+=========================================
+
+Margin
+
+m-1
+m-2
+m-3
+mt-3
+mb-3
+ms-3
+me-3
+
+→ Adds outside spacing.
+
+-----------------------------------------
+
+Padding
+
+p-1
+p-2
+p-3
+pt-3
+pb-3
+ps-3
+pe-3
+
+→ Adds inside spacing.
+
+-----------------------------------------
+
+Width
+
+w-25
+w-50
+w-75
+w-100
+
+→ Sets element width.
+
+-----------------------------------------
+
+Height
+
+h-25
+h-50
+h-75
+h-100
+
+→ Sets element height.
+
+-----------------------------------------
+
+Display
+
+d-none
+d-block
+d-inline
+d-flex
+
+→ Controls display property.
+
+-----------------------------------------
+
+Background
+
+bg-primary
+bg-success
+bg-danger
+bg-warning
+bg-dark
+
+→ Changes background color.
+
+-----------------------------------------
+
+Text
+
+text-white
+text-dark
+text-center
+text-start
+text-end
+
+→ Controls text color and alignment.
+
+-----------------------------------------
+
+Shadow
+
+shadow
+shadow-sm
+shadow-lg
+
+→ Adds shadow.
+
+-----------------------------------------
+
+Rounded
+
+rounded
+rounded-circle
+rounded-pill
+
+→ Adds rounded corners.
+
+=========================================
+Interview Questions
+=========================================
+
+Q1. What are Bootstrap Utility Classes?
+
+Answer:
+Predefined classes used for quick styling.
+
+-----------------------------------------
+
+Q2. Which class adds margin?
+
+Answer:
+m-*
+
+-----------------------------------------
+
+Q3. Which class adds padding?
+
+Answer:
+p-*
+
+-----------------------------------------
+
+Q4. Which class creates a flex container?
+
+Answer:
+d-flex
+
+-----------------------------------------
+
+Q5. Which class adds shadow?
+
+Answer:
+shadow
+
+-----------------------------------------
+
+Q6. Which class creates rounded corners?
+
+Answer:
+rounded
+
+=========================================
+Common Mistakes
+=========================================
+
+❌ margin-3
+✅ m-3
+
+❌ padding-3
+✅ p-3
+
+❌ width-50
+✅ w-50
+
+❌ height-100
+✅ h-100
+
+❌ round
+✅ rounded
+
+=========================================
+One-Line Revision
+=========================================
+
+m-* → Margin
+
+p-* → Padding
+
+w-* → Width
+
+h-* → Height
+
+d-flex → Flex Layout
+
+shadow → Shadow
+
+rounded → Rounded Corners
+
+bg-primary → Blue Background
+
+text-white → White Text
+
+=========================================
+Real Project Uses
+=========================================
+
+Portfolio Website
+
+Admin Dashboard
+
+Landing Page
+
+E-Commerce Website
+
+Blog Website
+
+Company Website
+
+Login Form
+
+Signup Form
+
+=========================================
+End of Topic 25
+=========================================
