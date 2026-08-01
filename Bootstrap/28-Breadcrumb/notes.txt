@@ -1,0 +1,152 @@
+# Bootstrap Topic 28
+# Breadcrumb
+
+=========================================
+What is Bootstrap Breadcrumb?
+=========================================
+
+Bootstrap Breadcrumb is a navigation component that shows the user's current location on a website.
+
+Example:
+
+Home > Products > Shoes
+
+=========================================
+Why Use Breadcrumb?
+=========================================
+
+- Easy Navigation
+- Better User Experience
+- Professional UI
+- Shows Current Page
+- Responsive Design
+
+=========================================
+Important Classes
+=========================================
+
+breadcrumb
+→ Main breadcrumb container.
+
+breadcrumb-item
+→ Creates each breadcrumb item.
+
+active
+→ Highlights the current page.
+
+=========================================
+Basic Syntax
+=========================================
+
+<nav>
+
+<ol class="breadcrumb">
+
+<li class="breadcrumb-item">
+<a href="#">Home</a>
+</li>
+
+<li class="breadcrumb-item active">
+Products
+</li>
+
+</ol>
+
+</nav>
+
+=========================================
+When to Use?
+=========================================
+
+E-Commerce Website
+
+Admin Dashboard
+
+Portfolio Website
+
+Blog Website
+
+Company Website
+
+Documentation
+
+=========================================
+Interview Questions
+=========================================
+
+Q1. What is Bootstrap Breadcrumb?
+
+Answer:
+A navigation component that shows the current page path.
+
+-----------------------------------------
+
+Q2. Which class creates the breadcrumb?
+
+Answer:
+breadcrumb
+
+-----------------------------------------
+
+Q3. Which class creates breadcrumb items?
+
+Answer:
+breadcrumb-item
+
+-----------------------------------------
+
+Q4. Which class highlights the current page?
+
+Answer:
+active
+
+-----------------------------------------
+
+Q5. Where is Breadcrumb commonly used?
+
+Answer:
+E-commerce, Blogs, Dashboards, Company Websites.
+
+=========================================
+Common Mistakes
+=========================================
+
+❌ bread-crumb
+✅ breadcrumb
+
+❌ breadcrumb-items
+✅ breadcrumb-item
+
+❌ Missing active class
+
+✅ Add active to the current page.
+
+=========================================
+One-Line Revision
+=========================================
+
+breadcrumb → Main Container
+
+breadcrumb-item → Navigation Item
+
+active → Current Page
+
+=========================================
+Real Project Uses
+=========================================
+
+Portfolio Website
+
+E-Commerce Website
+
+Admin Dashboard
+
+Blog Website
+
+Company Website
+
+Documentation Website
+
+=========================================
+End of Topic 28
+=========================================
