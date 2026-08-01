@@ -1,0 +1,176 @@
+# Bootstrap Topic 29
+# Collapse
+
+=========================================
+What is Bootstrap Collapse?
+=========================================
+
+Bootstrap Collapse is a component used to show or hide content with a button click.
+
+=========================================
+Why Use Collapse?
+=========================================
+
+- Show/Hide Content
+- Saves Space
+- Responsive Design
+- Professional UI
+- Better User Experience
+
+=========================================
+Important Classes
+=========================================
+
+collapse
+→ Main collapse container.
+
+show
+→ Keeps the content open by default.
+
+btn
+→ Bootstrap button.
+
+btn-primary
+→ Blue button.
+
+card
+→ Card container.
+
+card-body
+→ Card content.
+
+=========================================
+Important Data Attributes
+=========================================
+
+data-bs-toggle="collapse"
+→ Enables collapse.
+
+data-bs-target="#content"
+→ Connects the button with the collapse content.
+
+=========================================
+Basic Syntax
+=========================================
+
+<button
+data-bs-toggle="collapse"
+data-bs-target="#content">
+
+Show / Hide
+
+</button>
+
+<div class="collapse" id="content">
+
+Content Here
+
+</div>
+
+=========================================
+When to Use?
+=========================================
+
+FAQ Section
+
+Show More / Show Less
+
+Product Details
+
+Course Content
+
+Admin Dashboard
+
+Documentation
+
+=========================================
+Interview Questions
+=========================================
+
+Q1. What is Bootstrap Collapse?
+
+Answer:
+A component used to show or hide content.
+
+-----------------------------------------
+
+Q2. Which class creates the collapse container?
+
+Answer:
+collapse
+
+-----------------------------------------
+
+Q3. Which class keeps the content open by default?
+
+Answer:
+show
+
+-----------------------------------------
+
+Q4. Which attribute enables collapse?
+
+Answer:
+data-bs-toggle="collapse"
+
+-----------------------------------------
+
+Q5. Which attribute connects the button with the content?
+
+Answer:
+data-bs-target="#content"
+
+=========================================
+Common Mistakes
+=========================================
+
+❌ collpase
+✅ collapse
+
+❌ data-bs-toggle="collpase"
+✅ data-bs-toggle="collapse"
+
+❌ data-bs-target="content"
+✅ data-bs-target="#content"
+
+❌ Button target ID and div ID are different.
+
+✅ Both IDs must match.
+
+=========================================
+One-Line Revision
+=========================================
+
+collapse → Hidden Content
+
+show → Open by Default
+
+btn → Bootstrap Button
+
+card → Content Box
+
+card-body → Card Content
+
+data-bs-toggle="collapse" → Enable Collapse
+
+data-bs-target="#content" → Target Content
+
+=========================================
+Real Project Uses
+=========================================
+
+FAQ Page
+
+Portfolio Website
+
+Admin Dashboard
+
+Product Details
+
+Course Modules
+
+Documentation Website
+
+=========================================
+End of Topic 29
+=========================================
