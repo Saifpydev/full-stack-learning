@@ -1,0 +1,189 @@
+# Bootstrap Topic 22
+# Pagination
+
+=========================================
+What is Bootstrap Pagination?
+=========================================
+
+Bootstrap Pagination is used to navigate between multiple pages of content.
+
+=========================================
+Why Use Pagination?
+=========================================
+
+- Easy Navigation
+- Responsive Design
+- Better User Experience
+- Professional UI
+- Less Custom CSS
+
+=========================================
+Important Classes
+=========================================
+
+pagination
+→ Main pagination container.
+
+page-item
+→ Creates each page.
+
+page-link
+→ Creates clickable page links.
+
+active
+→ Highlights the current page.
+
+disabled
+→ Disables a page button.
+
+pagination-lg
+→ Large pagination.
+
+pagination-sm
+→ Small pagination.
+
+=========================================
+Basic Syntax
+=========================================
+
+<ul class="pagination">
+
+<li class="page-item">
+<a class="page-link" href="#">1</a>
+</li>
+
+</ul>
+
+=========================================
+Pagination Sizes
+=========================================
+
+pagination-lg
+→ Large Size
+
+pagination-sm
+→ Small Size
+
+=========================================
+Useful Classes
+=========================================
+
+pagination
+
+page-item
+
+page-link
+
+active
+
+disabled
+
+pagination-lg
+
+pagination-sm
+
+justify-content-center
+
+justify-content-end
+
+=========================================
+Interview Questions
+=========================================
+
+Q1. What is Bootstrap Pagination?
+
+Answer:
+Pagination is used to navigate between multiple pages.
+
+-----------------------------------------
+
+Q2. Which class creates the pagination?
+
+Answer:
+pagination
+
+-----------------------------------------
+
+Q3. Which class creates each page?
+
+Answer:
+page-item
+
+-----------------------------------------
+
+Q4. Which class creates the clickable link?
+
+Answer:
+page-link
+
+-----------------------------------------
+
+Q5. Which class highlights the current page?
+
+Answer:
+active
+
+-----------------------------------------
+
+Q6. Which class disables a page?
+
+Answer:
+disabled
+
+=========================================
+Common Mistakes
+=========================================
+
+❌ pageitem
+✅ page-item
+
+❌ pagelink
+✅ page-link
+
+❌ pagination-large
+✅ pagination-lg
+
+❌ disable
+✅ disabled
+
+=========================================
+One-Line Revision
+=========================================
+
+pagination → Main Pagination
+
+page-item → Page Item
+
+page-link → Clickable Link
+
+active → Current Page
+
+disabled → Disabled Page
+
+pagination-lg → Large Size
+
+pagination-sm → Small Size
+
+=========================================
+Real Project Uses
+=========================================
+
+Blog Website
+
+E-Commerce Website
+
+Search Results
+
+Admin Dashboard
+
+Student Management System
+
+Product Listing
+
+News Website
+
+Portfolio Projects
+
+=========================================
+End of Topic 22
+=========================================
