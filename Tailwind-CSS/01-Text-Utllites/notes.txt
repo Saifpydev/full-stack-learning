@@ -1,0 +1,181 @@
+===========================================
+Tailwind CSS - Topic 02 : Text Utilities
+===========================================
+
+📌 What is Text Utility?
+
+Text Utilities are utility classes used to control the appearance of text.
+They help change text size, text color, and font weight without writing custom CSS.
+
+-------------------------------------------
+1. Text Size
+-------------------------------------------
+
+Definition:
+Text size classes are used to increase or decrease the font size.
+
+Syntax:
+class="text-{size}"
+
+Examples:
+text-xs
+text-sm
+text-base
+text-lg
+text-xl
+text-2xl
+text-3xl
+text-4xl
+text-5xl
+text-6xl
+
+Notes:
+• xs = Extra Small
+• base = Default Size
+• 6xl = Very Large Size
+
+Example:
+<h1 class="text-4xl">Hello Tailwind CSS</h1>
+
+-------------------------------------------
+2. Text Color
+-------------------------------------------
+
+Definition:
+Text color classes change the color of text.
+
+Syntax:
+class="text-{color}-{shade}"
+
+Examples:
+text-red-500
+text-blue-500
+text-green-500
+text-yellow-500
+text-pink-500
+text-purple-500
+text-orange-500
+
+Shade System:
+50   = Very Light
+100  = Light
+200
+300
+400
+500  = Default / Most Used
+600
+700
+800
+900
+950  = Very Dark
+
+Example:
+<p class="text-red-500">Red Text</p>
+
+-------------------------------------------
+3. Font Weight
+-------------------------------------------
+
+Definition:
+Font weight classes control the thickness of text.
+
+Syntax:
+class="font-{weight}"
+
+Examples:
+font-thin
+font-light
+font-normal
+font-medium
+font-semibold
+font-bold
+font-extrabold
+font-black
+
+Example:
+<h1 class="font-bold">Bold Text</h1>
+
+-------------------------------------------
+Why Use Text Utilities?
+-------------------------------------------
+
+✔ No Custom CSS Required
+✔ Faster Development
+✔ Easy to Read
+✔ Easy to Maintain
+✔ Utility First Approach
+
+-------------------------------------------
+Advantages
+-------------------------------------------
+
+• Reusable Classes
+• Clean HTML
+• Responsive Friendly
+• Faster UI Development
+• Consistent Design
+
+-------------------------------------------
+Interview Questions
+-------------------------------------------
+
+Q1. What are Text Utilities in Tailwind CSS?
+
+Answer:
+Text Utilities are predefined utility classes used to style text such as font size, color, and font weight.
+
+------------------------------------------------
+
+Q2. Which class changes text size?
+
+Answer:
+text-*
+
+Example:
+text-xl
+text-3xl
+text-5xl
+
+------------------------------------------------
+
+Q3. Which class changes text color?
+
+Answer:
+text-{color}-{shade}
+
+Example:
+text-blue-500
+
+------------------------------------------------
+
+Q4. Which class makes text bold?
+
+Answer:
+font-bold
+
+------------------------------------------------
+
+Q5. What does text-base mean?
+
+Answer:
+It represents the default font size in Tailwind CSS.
+
+-------------------------------------------
+Quick Revision
+-------------------------------------------
+
+text-*              → Text Size
+
+text-red-500        → Text Color
+
+font-bold           → Bold Text
+
+font-normal         → Default Weight
+
+500                 → Standard Color Shade
+
+Tailwind CSS = Utility First CSS Framework
+
+===========================================
+End of Topic 02
+===========================================

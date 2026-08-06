@@ -1,0 +1,158 @@
+===========================================
+Tailwind CSS - Topic 03 : Text Alignment
+===========================================
+
+📌 What is Text Alignment?
+
+Text Alignment is used to control the horizontal position of text inside an element.
+
+Tailwind CSS provides predefined utility classes for aligning text.
+
+-------------------------------------------
+1. text-left
+-------------------------------------------
+
+Definition:
+Aligns text to the left side.
+
+Syntax:
+class="text-left"
+
+Example:
+<p class="text-left">Hello Tailwind CSS</p>
+
+Output:
+Text appears on the left side.
+
+-------------------------------------------
+2. text-center
+-------------------------------------------
+
+Definition:
+Aligns text to the center.
+
+Syntax:
+class="text-center"
+
+Example:
+<p class="text-center">Hello Tailwind CSS</p>
+
+Output:
+Text appears in the center.
+
+-------------------------------------------
+3. text-right
+-------------------------------------------
+
+Definition:
+Aligns text to the right side.
+
+Syntax:
+class="text-right"
+
+Example:
+<p class="text-right">Hello Tailwind CSS</p>
+
+Output:
+Text appears on the right side.
+
+-------------------------------------------
+4. text-justify
+-------------------------------------------
+
+Definition:
+Aligns text evenly on both the left and right sides.
+
+Syntax:
+class="text-justify"
+
+Example:
+<p class="text-justify">
+Tailwind CSS is a utility-first CSS framework.
+</p>
+
+Output:
+Text is aligned evenly on both sides.
+
+-------------------------------------------
+Why Use Text Alignment?
+-------------------------------------------
+
+✔ Improves readability
+✔ Creates professional layouts
+✔ Better user experience
+✔ Easy content positioning
+✔ No custom CSS required
+
+-------------------------------------------
+Advantages
+-------------------------------------------
+
+• Simple utility classes
+• Easy to use
+• Responsive friendly
+• Cleaner HTML
+• Faster development
+
+-------------------------------------------
+Interview Questions
+-------------------------------------------
+
+Q1. What is Text Alignment in Tailwind CSS?
+
+Answer:
+Text Alignment is used to position text horizontally using utility classes.
+
+------------------------------------------------
+
+Q2. Which class aligns text to the left?
+
+Answer:
+text-left
+
+------------------------------------------------
+
+Q3. Which class aligns text to the center?
+
+Answer:
+text-center
+
+------------------------------------------------
+
+Q4. Which class aligns text to the right?
+
+Answer:
+text-right
+
+------------------------------------------------
+
+Q5. Which class justifies text?
+
+Answer:
+text-justify
+
+------------------------------------------------
+
+Q6. Does Tailwind CSS require custom CSS for text alignment?
+
+Answer:
+No.
+Tailwind provides built-in utility classes.
+
+-------------------------------------------
+Quick Revision
+-------------------------------------------
+
+text-left      → Left Alignment
+
+text-center    → Center Alignment
+
+text-right     → Right Alignment
+
+text-justify   → Justify Alignment
+
+Tailwind CSS = Utility First CSS Framework
+
+===========================================
+End of Topic 03
+===========================================

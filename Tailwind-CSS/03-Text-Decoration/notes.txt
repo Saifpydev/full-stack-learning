@@ -1,0 +1,153 @@
+=========================================
+Tailwind CSS - Topic 03 : Text Decoration
+=========================================
+
+📌 What is Text Decoration?
+
+Text Decoration is used to add or remove decorative lines from text.
+
+Tailwind CSS provides utility classes for applying text decorations without writing custom CSS.
+
+-----------------------------------------
+1. underline
+-----------------------------------------
+
+Definition:
+Adds a line below the text.
+
+Syntax:
+class="underline"
+
+Example:
+<p class="underline">Hello Tailwind CSS</p>
+
+Output:
+The text is displayed with an underline.
+
+-----------------------------------------
+2. overline
+-----------------------------------------
+
+Definition:
+Adds a line above the text.
+
+Syntax:
+class="overline"
+
+Example:
+<p class="overline">Hello Tailwind CSS</p>
+
+Output:
+The text is displayed with an overline.
+
+-----------------------------------------
+3. line-through
+-----------------------------------------
+
+Definition:
+Adds a line through the middle of the text.
+
+Syntax:
+class="line-through"
+
+Example:
+<p class="line-through">Hello Tailwind CSS</p>
+
+Output:
+The text appears crossed out.
+
+-----------------------------------------
+4. no-underline
+-----------------------------------------
+
+Definition:
+Removes underline from text or links.
+
+Syntax:
+class="no-underline"
+
+Example:
+<a href="#" class="no-underline">Home</a>
+
+Output:
+The link appears without an underline.
+
+-----------------------------------------
+Why Use Text Decoration?
+-----------------------------------------
+
+✔ Highlight important text
+✔ Remove link underline
+✔ Show deleted or completed items
+✔ Improve UI design
+✔ No custom CSS required
+
+-----------------------------------------
+Advantages
+-----------------------------------------
+
+• Easy to use
+• Utility-first classes
+• Responsive friendly
+• Faster development
+• Clean and readable code
+
+-----------------------------------------
+Interview Questions
+-----------------------------------------
+
+Q1. What is Text Decoration?
+
+Answer:
+It is used to add or remove decorative lines from text.
+
+------------------------------------------------
+
+Q2. Which class adds an underline?
+
+Answer:
+underline
+
+------------------------------------------------
+
+Q3. Which class adds a line above text?
+
+Answer:
+overline
+
+------------------------------------------------
+
+Q4. Which class adds a line through text?
+
+Answer:
+line-through
+
+------------------------------------------------
+
+Q5. Which class removes the underline?
+
+Answer:
+no-underline
+
+------------------------------------------------
+
+Q6. Does Tailwind CSS require custom CSS for text decoration?
+
+Answer:
+No. Tailwind provides built-in utility classes.
+
+-----------------------------------------
+Quick Revision
+-----------------------------------------
+
+underline      → Line below text
+
+overline       → Line above text
+
+line-through   → Line through text
+
+no-underline   → Remove underline
+
+=========================================
+End of Topic 03
+=========================================
