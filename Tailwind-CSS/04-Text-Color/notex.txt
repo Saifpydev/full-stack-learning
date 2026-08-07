@@ -1,0 +1,168 @@
+=========================================
+Tailwind CSS - Topic 04 : Text Color
+=========================================
+
+📌 What is Text Color?
+
+Text Color is used to change the color of text.
+
+Tailwind CSS provides predefined utility classes to apply colors without writing custom CSS.
+
+-----------------------------------------
+Syntax
+-----------------------------------------
+
+class="text-{color}-{shade}"
+
+Example:
+
+text-red-500
+
+-----------------------------------------
+Common Text Colors
+-----------------------------------------
+
+text-black      → Black
+
+text-white      → White
+
+text-red-500    → Red
+
+text-blue-500   → Blue
+
+text-green-500  → Green
+
+text-yellow-500 → Yellow
+
+text-purple-500 → Purple
+
+text-pink-500   → Pink
+
+text-gray-500   → Gray
+
+-----------------------------------------
+Color Shades
+-----------------------------------------
+
+50   → Very Light
+
+100  → Light
+
+200
+
+300
+
+400
+
+500  → Default (Most Used)
+
+600
+
+700
+
+800
+
+900
+
+950  → Very Dark
+
+Example:
+
+text-red-100
+
+text-red-500
+
+text-red-900
+
+-----------------------------------------
+Why Use Text Color?
+-----------------------------------------
+
+✔ Makes UI attractive
+
+✔ Highlights important text
+
+✔ Improves readability
+
+✔ No custom CSS required
+
+-----------------------------------------
+Advantages
+-----------------------------------------
+
+• Easy to use
+
+• Utility First
+
+• Faster Development
+
+• Responsive Friendly
+
+• Clean Code
+
+-----------------------------------------
+Interview Questions
+-----------------------------------------
+
+Q1. Which class changes text color?
+
+Answer:
+text-{color}-{shade}
+
+-----------------------------------------
+
+Q2. Which shade is used most?
+
+Answer:
+500
+
+-----------------------------------------
+
+Q3. Which class makes text red?
+
+Answer:
+text-red-500
+
+-----------------------------------------
+
+Q4. Which class makes text blue?
+
+Answer:
+text-blue-500
+
+-----------------------------------------
+
+Q5. Can we use different shades of one color?
+
+Answer:
+Yes.
+Example:
+text-red-100
+text-red-300
+text-red-500
+text-red-700
+text-red-900
+
+-----------------------------------------
+Quick Revision
+-----------------------------------------
+
+text-red-500      → Red
+
+text-blue-500     → Blue
+
+text-green-500    → Green
+
+text-yellow-500   → Yellow
+
+text-purple-500   → Purple
+
+text-pink-500     → Pink
+
+text-gray-500     → Gray
+
+500 → Default Shade
+
+=========================================
+End of Topic 04
+=========================================

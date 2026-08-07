@@ -1,0 +1,127 @@
+# 05 - Background Color (Tailwind CSS)
+
+## Introduction
+Background Color utilities are used to change the background color of any HTML element.
+
+Syntax:
+bg-{color}-{shade}
+
+Example:
+bg-red-500
+bg-blue-500
+bg-green-500
+bg-yellow-500
+bg-purple-500
+
+--------------------------------------------------
+
+## Common Background Colors
+
+bg-red-500
+→ Red Background
+
+bg-blue-500
+→ Blue Background
+
+bg-green-500
+→ Green Background
+
+bg-yellow-500
+→ Yellow Background
+
+bg-purple-500
+→ Purple Background
+
+bg-pink-500
+→ Pink Background
+
+bg-gray-500
+→ Gray Background
+
+bg-black
+→ Black Background
+
+bg-white
+→ White Background
+
+--------------------------------------------------
+
+## Background Shade
+
+50   → Lightest
+100
+200
+300
+400
+500  → Default
+600
+700
+800
+900  → Darkest
+
+Example:
+
+bg-blue-100
+bg-blue-300
+bg-blue-500
+bg-blue-700
+bg-blue-900
+
+--------------------------------------------------
+
+## Example
+
+<h1 class="bg-red-500">Red</h1>
+
+<h1 class="bg-blue-500">Blue</h1>
+
+<h1 class="bg-green-500">Green</h1>
+
+--------------------------------------------------
+
+## Advantages
+
+✔ Easy to use
+✔ Responsive Friendly
+✔ Many color options
+✔ Professional UI
+✔ Consistent design system
+
+--------------------------------------------------
+
+## Interview Questions
+
+Q1. Background color class in Tailwind?
+Ans:
+bg-{color}-{shade}
+
+Q2. Default shade?
+Ans:
+500
+
+Q3. Darkest shade?
+Ans:
+900
+
+Q4. Lightest shade?
+Ans:
+50
+
+Q5. Background and Text color class difference?
+
+Background:
+bg-red-500
+
+Text:
+text-red-500
+
+--------------------------------------------------
+
+## Summary
+
+• bg = Background
+• Format = bg-color-shade
+• Default shade = 500
+• Light shade = 50
+• Dark shade = 900
+• Used to change the background color of elements.
