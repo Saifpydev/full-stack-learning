@@ -1,0 +1,161 @@
+=========================================
+Tailwind CSS - Topic 08 : Margin
+=========================================
+
+📌 What is Margin?
+
+Margin is the space outside an element.
+It creates space between two elements.
+
+-----------------------------------------
+Syntax
+-----------------------------------------
+
+class="m-4"
+
+Example:
+
+<div class="m-4">
+    Hello Tailwind CSS
+</div>
+
+-----------------------------------------
+Margin Types
+-----------------------------------------
+
+m-4
+→ Margin on all sides
+
+mt-4
+→ Margin Top
+
+mb-4
+→ Margin Bottom
+
+ml-4
+→ Margin Left
+
+mr-4
+→ Margin Right
+
+mx-4
+→ Margin Left & Right
+
+my-4
+→ Margin Top & Bottom
+
+-----------------------------------------
+Common Values
+-----------------------------------------
+
+m-1
+m-2
+m-3
+m-4
+m-5
+m-6
+m-8
+m-10
+
+-----------------------------------------
+Example
+-----------------------------------------
+
+<h1 class="bg-red-500 text-white m-4">
+    Margin All Sides
+</h1>
+
+<h1 class="bg-blue-500 text-white mt-6">
+    Margin Top
+</h1>
+
+<h1 class="bg-green-500 text-white mx-6">
+    Margin Left & Right
+</h1>
+
+<h1 class="bg-purple-500 text-white my-6">
+    Margin Top & Bottom
+</h1>
+
+-----------------------------------------
+Advantages
+-----------------------------------------
+
+✔ Creates proper spacing
+
+✔ Improves layout
+
+✔ Better UI Design
+
+✔ Responsive Friendly
+
+✔ No Custom CSS Required
+
+-----------------------------------------
+Interview Questions
+-----------------------------------------
+
+Q1. What is Margin?
+
+Answer:
+Space outside an element.
+
+-----------------------------------------
+
+Q2. Which class adds margin on all sides?
+
+Answer:
+m-4
+
+-----------------------------------------
+
+Q3. Which class adds top margin?
+
+Answer:
+mt-4
+
+-----------------------------------------
+
+Q4. Which class adds left & right margin?
+
+Answer:
+mx-4
+
+-----------------------------------------
+
+Q5. Which class adds top & bottom margin?
+
+Answer:
+my-4
+
+-----------------------------------------
+Difference Between Margin & Padding
+-----------------------------------------
+
+Margin
+→ Space outside an element.
+
+Padding
+→ Space inside an element.
+
+-----------------------------------------
+Quick Revision
+-----------------------------------------
+
+m-4   → All Sides
+
+mt-4  → Top
+
+mb-4  → Bottom
+
+ml-4  → Left
+
+mr-4  → Right
+
+mx-4  → Left + Right
+
+my-4  → Top + Bottom
+
+=========================================
+End of Topic 08
+=========================================

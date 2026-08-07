@@ -1,0 +1,109 @@
+# Tailwind CSS - Layout Utilities
+
+## Introduction
+Layout Utilities help control the size and display behavior of elements.
+
+----------------------------------------
+
+1. Max Width
+Class:
+max-w-xs
+max-w-sm
+max-w-md
+max-w-lg
+max-w-xl
+
+Purpose:
+Sets the maximum width of an element.
+
+Example:
+<div class="max-w-xs"></div>
+
+----------------------------------------
+
+2. Max Height
+Class:
+max-h-20
+max-h-40
+max-h-60
+
+Purpose:
+Sets the maximum height of an element.
+
+Example:
+<div class="max-h-20"></div>
+
+----------------------------------------
+
+3. Min Height
+Class:
+min-h-20
+min-h-screen
+
+Purpose:
+Sets the minimum height of an element.
+
+Example:
+<div class="min-h-20"></div>
+
+----------------------------------------
+
+4. Display Block
+Class:
+block
+
+Purpose:
+Element takes the full available width.
+
+Example:
+<div class="block"></div>
+
+----------------------------------------
+
+5. Display Inline
+Class:
+inline
+
+Purpose:
+Element takes only the width of its content.
+
+Example:
+<span class="inline"></span>
+
+----------------------------------------
+
+## Common Classes
+max-w-xs
+max-w-sm
+max-h-20
+min-h-20
+block
+inline
+
+----------------------------------------
+
+## Interview Questions
+
+Q1. What is max-width?
+Ans: It limits the maximum width of an element.
+
+Q2. Difference between width and max-width?
+Ans:
+width = fixed width.
+max-width = maximum allowed width.
+
+Q3. What does block do?
+Ans: Takes the full available width.
+
+Q4. What does inline do?
+Ans: Takes only the content width.
+
+----------------------------------------
+
+## Summary
+
+✔ max-w-* → Maximum Width
+✔ max-h-* → Maximum Height
+✔ min-h-* → Minimum Height
+✔ block → Full Width Element
+✔ inline → Content Width Element

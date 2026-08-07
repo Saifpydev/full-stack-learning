@@ -1,0 +1,85 @@
+# Tailwind CSS - Responsive Design
+
+## Introduction
+Responsive Design allows a website to adapt to different screen sizes such as mobile, tablet, laptop, and desktop.
+
+------------------------------------------------
+
+## Breakpoints
+
+sm: 640px
+md: 768px
+lg: 1024px
+xl: 1280px
+2xl: 1536px
+
+------------------------------------------------
+
+## Common Responsive Classes
+
+sm:bg-red-500
+md:bg-blue-500
+lg:bg-green-500
+
+sm:text-lg
+md:text-2xl
+lg:text-4xl
+
+sm:w-20
+md:w-40
+lg:w-60
+
+------------------------------------------------
+
+## Syntax
+
+Mobile (Default)
+<div class="bg-red-500"></div>
+
+Tablet
+<div class="md:bg-blue-500"></div>
+
+Laptop
+<div class="lg:bg-green-500"></div>
+
+------------------------------------------------
+
+## Mobile First
+
+Tailwind CSS follows a Mobile-First approach.
+
+Default classes apply to mobile.
+Use sm:, md:, lg:, xl:, and 2xl: for larger screens.
+
+------------------------------------------------
+
+## Interview Questions
+
+Q1. What is Responsive Design?
+Ans: A design approach that adapts the UI to different screen sizes.
+
+Q2. What is the default approach of Tailwind CSS?
+Ans: Mobile First.
+
+Q3. Which breakpoint is used for tablets?
+Ans: md:
+
+Q4. Which breakpoint is used for laptops?
+Ans: lg:
+
+Q5. What is the use of breakpoints?
+Ans: They apply different styles based on screen size.
+
+------------------------------------------------
+
+## Summary
+
+✔ Mobile First
+✔ sm: → 640px
+✔ md: → 768px
+✔ lg: → 1024px
+✔ xl: → 1280px
+✔ 2xl: → 1536px
+✔ Responsive Color
+✔ Responsive Text
+✔ Responsive Width

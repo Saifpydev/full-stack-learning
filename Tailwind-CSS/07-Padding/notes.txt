@@ -1,0 +1,151 @@
+=========================================
+Tailwind CSS - Topic 07 : Padding
+=========================================
+
+📌 What is Padding?
+
+Padding is the space inside an element.
+It creates space between the content and the border.
+
+-----------------------------------------
+Syntax
+-----------------------------------------
+
+class="p-4"
+
+Example:
+
+<div class="p-4">
+    Hello Tailwind CSS
+</div>
+
+-----------------------------------------
+Padding Types
+-----------------------------------------
+
+p-4
+→ Padding on all sides
+
+pt-4
+→ Padding Top
+
+pb-4
+→ Padding Bottom
+
+pl-4
+→ Padding Left
+
+pr-4
+→ Padding Right
+
+px-4
+→ Padding Left & Right
+
+py-4
+→ Padding Top & Bottom
+
+-----------------------------------------
+Common Values
+-----------------------------------------
+
+p-1
+p-2
+p-3
+p-4
+p-5
+p-6
+p-8
+p-10
+
+-----------------------------------------
+Example
+-----------------------------------------
+
+<h1 class="bg-red-500 text-white p-4">
+    Padding All Sides
+</h1>
+
+<h1 class="bg-blue-500 text-white pt-4">
+    Padding Top
+</h1>
+
+<h1 class="bg-green-500 text-white px-4">
+    Padding Left & Right
+</h1>
+
+<h1 class="bg-purple-500 text-white py-4">
+    Padding Top & Bottom
+</h1>
+
+-----------------------------------------
+Advantages
+-----------------------------------------
+
+✔ Easy Spacing
+
+✔ Clean UI
+
+✔ Better Readability
+
+✔ Responsive Friendly
+
+✔ No Custom CSS Required
+
+-----------------------------------------
+Interview Questions
+-----------------------------------------
+
+Q1. What is Padding?
+
+Answer:
+Space inside an element.
+
+-----------------------------------------
+
+Q2. Which class adds padding to all sides?
+
+Answer:
+p-4
+
+-----------------------------------------
+
+Q3. Which class adds top padding?
+
+Answer:
+pt-4
+
+-----------------------------------------
+
+Q4. Which class adds left & right padding?
+
+Answer:
+px-4
+
+-----------------------------------------
+
+Q5. Which class adds top & bottom padding?
+
+Answer:
+py-4
+
+-----------------------------------------
+Quick Revision
+-----------------------------------------
+
+p-4   → All Sides
+
+pt-4  → Top
+
+pb-4  → Bottom
+
+pl-4  → Left
+
+pr-4  → Right
+
+px-4  → Left + Right
+
+py-4  → Top + Bottom
+
+=========================================
+End of Topic 07
+=========================================

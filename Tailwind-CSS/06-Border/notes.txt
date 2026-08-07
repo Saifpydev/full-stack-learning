@@ -1,0 +1,163 @@
+=========================================
+Tailwind CSS - Topic 06 : Border
+=========================================
+
+📌 What is Border?
+
+Border is used to add an outline around an HTML element.
+
+Tailwind CSS provides built-in utility classes to create borders without writing custom CSS.
+
+-----------------------------------------
+Syntax
+-----------------------------------------
+
+class="border"
+
+Example:
+
+<div class="border">
+    Border
+</div>
+
+-----------------------------------------
+Border Width
+-----------------------------------------
+
+border      → 1px Border
+
+border-2    → 2px Border
+
+border-4    → 4px Border
+
+border-8    → 8px Border
+
+-----------------------------------------
+Border Color
+-----------------------------------------
+
+border-red-500
+
+border-blue-500
+
+border-green-500
+
+border-yellow-500
+
+border-purple-500
+
+Example:
+
+<div class="border-4 border-red-500">
+    Red Border
+</div>
+
+-----------------------------------------
+Rounded Border
+-----------------------------------------
+
+rounded
+
+rounded-md
+
+rounded-lg
+
+rounded-xl
+
+rounded-2xl
+
+rounded-full
+
+Example:
+
+<div class="border rounded-lg">
+    Rounded Border
+</div>
+
+-----------------------------------------
+Why Use Border?
+-----------------------------------------
+
+✔ Highlights elements
+
+✔ Improves UI Design
+
+✔ Separates content
+
+✔ Makes layouts attractive
+
+✔ No custom CSS required
+
+-----------------------------------------
+Advantages
+-----------------------------------------
+
+• Easy to use
+
+• Utility First
+
+• Faster Development
+
+• Responsive Friendly
+
+• Clean Code
+
+-----------------------------------------
+Interview Questions
+-----------------------------------------
+
+Q1. Which class adds a border?
+
+Answer:
+border
+
+-----------------------------------------
+
+Q2. Which class creates a 4px border?
+
+Answer:
+border-4
+
+-----------------------------------------
+
+Q3. Which class changes border color?
+
+Answer:
+border-{color}-{shade}
+
+Example:
+border-red-500
+
+-----------------------------------------
+
+Q4. Which class creates rounded corners?
+
+Answer:
+rounded
+
+-----------------------------------------
+
+Q5. Which class creates a circle or pill shape?
+
+Answer:
+rounded-full
+
+-----------------------------------------
+Quick Revision
+-----------------------------------------
+
+border              → Add Border
+
+border-4            → Border Width
+
+border-red-500      → Border Color
+
+rounded             → Rounded Corners
+
+rounded-lg          → Large Rounded Corners
+
+rounded-full        → Circle / Pill Shape
+
+=========================================
+End of Topic 06
+=========================================
