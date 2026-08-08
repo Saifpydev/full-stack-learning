@@ -1,0 +1,177 @@
+TAILWIND CSS – TRANSFORM, SHADOW, OPACITY & ANIMATION
+=====================================================
+
+16. TRANSFORM
+-------------
+
+Transform ka use element ko move, rotate, scale aur skew karne ke liye hota hai.
+
+Scale:
+scale-50
+scale-75
+scale-100
+scale-110
+scale-125
+
+Rotate:
+rotate-45
+rotate-90
+-rotate-45
+
+Translate:
+translate-x-4
+translate-y-4
+-translate-x-4
+-translate-y-4
+
+Skew:
+skew-x-6
+skew-y-6
+
+
+Example:
+<div class="scale-110 rotate-6">
+    Transform
+</div>
+
+
+17. BOX SHADOW
+--------------
+
+Element ke around shadow add karne ke liye use hota hai.
+
+Classes:
+
+shadow-sm   → Small shadow
+shadow      → Default shadow
+shadow-md   → Medium shadow
+shadow-lg   → Large shadow
+shadow-xl   → Extra large shadow
+shadow-2xl  → Very large shadow
+shadow-none → Remove shadow
+
+
+Example:
+<div class="shadow-xl p-5">
+    Shadow
+</div>
+
+
+18. OPACITY
+-----------
+
+Opacity element ki transparency control karta hai.
+
+Classes:
+
+opacity-0    → Completely invisible
+opacity-25   → 25% visible
+opacity-50   → 50% visible
+opacity-75   → 75% visible
+opacity-100  → Fully visible
+
+
+Example:
+<div class="opacity-50">
+    Opacity
+</div>
+
+
+19. ANIMATION
+-------------
+
+Tailwind CSS me predefined animations available hain.
+
+Main Classes:
+
+animate-spin
+animate-ping
+animate-pulse
+animate-bounce
+
+
+animate-spin
+→ Element continuously rotate karta hai.
+
+animate-ping
+→ Element ping/ripple effect deta hai.
+
+animate-pulse
+→ Element continuously fade in/out hota hai.
+
+animate-bounce
+→ Element bounce karta hai.
+
+
+Example:
+<div class="animate-bounce">
+    Animation
+</div>
+
+
+20. COMBINING UTILITIES
+-----------------------
+
+Multiple utilities ek hi element par use kar sakte hain.
+
+Example:
+
+<div class="bg-blue-500 text-white p-5 scale-110 rotate-6 shadow-xl opacity-90">
+    Box
+</div>
+
+
+QUICK REVISION
+==============
+
+Transform
+→ Move / Rotate / Scale / Skew
+
+Shadow
+→ Element ke around shadow
+
+Opacity
+→ Transparency control
+
+Animation
+→ Element ko animate karna
+
+
+IMPORTANT CLASSES
+=================
+
+Transform:
+scale-110
+rotate-45
+translate-x-4
+translate-y-4
+skew-x-6
+
+Shadow:
+shadow
+shadow-md
+shadow-lg
+shadow-xl
+shadow-2xl
+
+Opacity:
+opacity-25
+opacity-50
+opacity-75
+opacity-100
+
+Animation:
+animate-spin
+animate-ping
+animate-pulse
+animate-bounce
+
+
+PRACTICE
+========
+
+1. Ek box ko rotate karo.
+2. Ek box ko scale-125 karo.
+3. Ek card par shadow-lg lagao.
+4. Ek box ko opacity-50 karo.
+5. Ek element par animate-bounce lagao.

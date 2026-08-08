@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Position</title>
+    <link rel="stylesheet" href="../output.css" />
+  </head>
+  <body class="h-screen">
+    <!-- Relative + Absolute -->
+    <div class="realtive bg-blue-500 w-64 h-32 text-white p-4">
+      Relative Box
+      <div class="absolute top-2 right-2 bg-red-500 p-2">Absolute</div>
+    </div>
+    <!-- Sticky -->
+    <div class="sticky top-0 bg-green-500 text-white p-3">Sticky Header</div>
+
+    <!-- Z - Index  -->
+    <div class="relative mt-5 h-32">
+      <div class="absolute z-10 bg-yellow-500 p-5">z-10</div>
+      <div class="absolute left-10 top-10 z-20 bg-purple-500 text-white p-5">
+        z-20
+      </div>
+    </div>
+
+    <!-- Fixed -->
+    <div class="fixed bottom-5 right-5 bg-black text-white px-4 py-2 rounded">
+      Fixed
+    </div>
+  </body>
+</html>

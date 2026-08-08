@@ -1,0 +1,113 @@
+# 13. Hover, Focus, Active & Transition
+
+## Introduction
+Tailwind CSS provides state variants to change the style when a user interacts with an element.
+
+--------------------------------------------------
+
+1. Hover
+- Used when the mouse pointer is over an element.
+- Prefix: hover:
+
+Example:
+hover:bg-red-500
+hover:text-white
+hover:scale-110
+
+--------------------------------------------------
+
+2. Focus
+- Used when an input, textarea or button is selected.
+- Prefix: focus:
+
+Example:
+focus:outline-none
+focus:ring-2
+focus:ring-blue-500
+
+--------------------------------------------------
+
+3. Active
+- Used while a button or element is being clicked.
+- Prefix: active:
+
+Example:
+active:bg-red-500
+active:scale-95
+
+--------------------------------------------------
+
+4. Transition
+- Makes changes smooth.
+- Class: transition
+
+Example:
+transition
+duration-500
+
+--------------------------------------------------
+
+5. Duration
+- Controls animation speed.
+
+Classes:
+duration-150
+duration-300
+duration-500
+duration-700
+duration-1000
+
+--------------------------------------------------
+
+Example
+
+<button class="bg-blue-500 text-white px-5 py-2 rounded hover:bg-red-500 transition duration-500">
+Hover Me
+</button>
+
+<input
+class="border p-2 rounded focus:outline-none focus:ring-2 focus:ring-blue-500">
+
+<button class="bg-green-500 text-white px-5 py-2 rounded active:bg-red-500">
+Click Me
+</button>
+
+--------------------------------------------------
+
+Important Classes
+
+hover:bg-red-500
+hover:text-white
+hover:scale-110
+focus:outline-none
+focus:ring-2
+focus:ring-blue-500
+active:bg-red-500
+transition
+duration-500
+
+--------------------------------------------------
+
+Interview Questions
+
+Q1. What is hover in Tailwind CSS?
+Ans: Changes style when mouse is over an element.
+
+Q2. What is focus?
+Ans: Applies styles when an element receives focus.
+
+Q3. What is active?
+Ans: Applies styles while an element is being clicked.
+
+Q4. Why use transition?
+Ans: To make style changes smooth.
+
+--------------------------------------------------
+
+Summary
+
+✔ hover → Mouse Over
+✔ focus → Input Selected
+✔ active → Mouse Click
+✔ transition → Smooth Animation
+✔ duration → Animation Speed

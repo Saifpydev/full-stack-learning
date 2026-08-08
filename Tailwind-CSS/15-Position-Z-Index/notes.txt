@@ -1,0 +1,228 @@
+TAILWIND CSS – POSITION & Z-INDEX
+=================================
+
+1. Position
+------------
+Tailwind CSS me elements ki position control karne ke liye position utilities use hoti hain.
+
+Main Classes:
+static
+relative
+absolute
+fixed
+sticky
+
+
+2. Static
+---------
+Default position.
+
+Class:
+static
+
+Example:
+<div class="static">Content</div>
+
+
+3. Relative
+-----------
+Element apni normal position ke according positioned hota hai.
+
+Class:
+relative
+
+Example:
+<div class="relative">
+    Parent
+</div>
+
+Usually absolute child ke parent ke liye use hota hai.
+
+
+4. Absolute
+-----------
+Element normal document flow se bahar ho jata hai.
+
+Class:
+absolute
+
+Position control:
+top-0
+right-0
+bottom-0
+left-0
+
+Example:
+<div class="relative">
+    <div class="absolute top-0 right-0">
+        Absolute
+    </div>
+</div>
+
+
+5. Fixed
+--------
+Element viewport ke according fixed rehta hai.
+
+Class:
+fixed
+
+Example:
+<div class="fixed bottom-0 right-0">
+    Fixed
+</div>
+
+Common use:
+- Floating button
+- Chat button
+- Fixed navigation
+
+
+6. Sticky
+---------
+Element scroll karte waqt ek position par stick ho jata hai.
+
+Class:
+sticky
+
+Example:
+<div class="sticky top-0">
+    Sticky Header
+</div>
+
+Common use:
+- Sticky Navbar
+- Header
+- Sidebar
+
+
+7. Position Utilities
+---------------------
+top-0
+top-4
+top-10
+
+right-0
+right-4
+
+bottom-0
+bottom-4
+
+left-0
+left-4
+
+Example:
+<div class="absolute top-4 right-4">
+    Box
+</div>
+
+
+8. Z-Index
+----------
+Z-index elements ki stacking order control karta hai.
+
+Higher z-index = element upar dikhega.
+
+Classes:
+z-0
+z-10
+z-20
+z-30
+z-40
+z-50
+
+
+Example:
+<div class="relative">
+    <div class="absolute z-10">
+        Box 1
+    </div>
+
+    <div class="absolute z-20">
+        Box 2
+    </div>
+</div>
+
+Output:
+Box 2 upar dikhega because z-20 > z-10.
+
+
+9. Important Combination
+------------------------
+Position + z-index ko commonly saath use kiya jata hai.
+
+Example:
+
+<div class="relative">
+    <div class="absolute top-0 right-0 z-20">
+        Front Box
+    </div>
+</div>
+
+
+10. Quick Revision
+------------------
+
+static    = Default position
+relative  = Normal position ke according
+absolute  = Parent ke according position
+fixed     = Viewport ke according fixed
+sticky    = Scroll par stick
+
+z-10      = Lower layer
+z-20      = Higher layer
+z-50      = Even higher layer
+
+
+11. Common Use Cases
+--------------------
+
+relative + absolute
+→ Card ke andar badge/image/button
+
+fixed
+→ Floating button / Chat button
+
+sticky
+→ Navbar / Header
+
+z-index
+→ Overlapping elements ko control karna
+
+
+12. Important Note
+------------------
+absolute ko usually relative parent ke andar use karte hain.
+
+Example:
+
+<div class="relative">
+    <div class="absolute top-0 right-0">
+        Badge
+    </div>
+</div>
+
+
+13. Syntax Summary
+------------------
+
+Position:
+static
+relative
+absolute
+fixed
+sticky
+
+Position Direction:
+top-*
+right-*
+bottom-*
+left-*
+
+Z-Index:
+z-0
+z-10
+z-20
+z-30
+z-40
+z-50

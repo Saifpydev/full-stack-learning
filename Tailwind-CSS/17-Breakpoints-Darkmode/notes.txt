@@ -1,0 +1,271 @@
+==================================================
+TAILWIND CSS – BREAKPOINTS, DARK MODE, FORMS,
+ARBITRARY VALUES & GRADIENTS
+==================================================
+
+17. BREAKPOINTS / RESPONSIVE
+----------------------------
+
+Breakpoints ka use different screen sizes par
+different styles apply karne ke liye hota hai.
+
+Tailwind CSS Mobile-First approach follow karta hai.
+
+Breakpoints:
+
+sm:   → 640px
+md:   → 768px
+lg:   → 1024px
+xl:   → 1280px
+2xl:  → 1536px
+
+Example:
+
+<div class="text-sm md:text-xl lg:text-3xl">
+    Responsive Text
+</div>
+
+Mobile:
+text-sm
+
+Tablet:
+md:text-xl
+
+Laptop:
+lg:text-3xl
+
+
+--------------------------------------------------
+18. DARK MODE
+--------------------------------------------------
+
+Dark mode ke liye dark: variant use hota hai.
+
+Syntax:
+
+dark:class
+
+Example:
+
+<div class="bg-white text-black dark:bg-gray-900 dark:text-white">
+    Dark Mode
+</div>
+
+Common Classes:
+
+dark:bg-gray-900
+dark:bg-black
+dark:text-white
+dark:text-gray-200
+
+Purpose:
+Light aur dark theme ke liye different styles
+apply karna.
+
+
+--------------------------------------------------
+19. FORMS & INPUTS
+--------------------------------------------------
+
+Inputs aur forms ko Tailwind utilities se style
+kiya ja sakta hai.
+
+Common Classes:
+
+border
+p-2
+rounded
+focus:outline-none
+focus:ring-2
+focus:ring-blue-500
+
+Example:
+
+<input
+    type="text"
+    placeholder="Enter Name"
+    class="border p-2 rounded focus:outline-none
+    focus:ring-2 focus:ring-blue-500"
+/>
+
+Focus:
+focus: variant input select hone par style
+apply karta hai.
+
+
+--------------------------------------------------
+20. ARBITRARY VALUES
+--------------------------------------------------
+
+Jab Tailwind ki default values suitable na ho,
+custom value [] ke andar likh sakte hain.
+
+Syntax:
+
+[custom-value]
+
+Examples:
+
+w-[300px]
+h-[150px]
+bg-[#123456]
+text-[20px]
+mt-[25px]
+
+Example:
+
+<div class="w-[300px] bg-[#123456]">
+    Custom Value
+</div>
+
+Important:
+Arbitrary values flexibility provide karte hain.
+
+
+--------------------------------------------------
+21. GRADIENTS
+--------------------------------------------------
+
+Gradient multiple colors ka smooth transition
+create karta hai.
+
+Direction Classes:
+
+bg-gradient-to-r
+→ Right
+
+bg-gradient-to-l
+→ Left
+
+bg-gradient-to-t
+→ Top
+
+bg-gradient-to-b
+→ Bottom
+
+Color Classes:
+
+from-blue-500
+via-purple-500
+to-pink-500
+
+Example:
+
+<div class="bg-gradient-to-r
+from-blue-500 via-purple-500 to-pink-500">
+    Gradient
+</div>
+
+
+--------------------------------------------------
+IMPORTANT CLASSES
+--------------------------------------------------
+
+Responsive:
+sm:
+md:
+lg:
+xl:
+2xl:
+
+Dark Mode:
+dark:bg-gray-900
+dark:text-white
+
+Forms:
+border
+rounded
+focus:ring-2
+focus:outline-none
+
+Arbitrary:
+w-[300px]
+bg-[#123456]
+
+Gradient:
+bg-gradient-to-r
+from-blue-500
+via-purple-500
+to-pink-500
+
+
+--------------------------------------------------
+INTERVIEW QUESTIONS
+--------------------------------------------------
+
+Q1. What are Tailwind breakpoints?
+
+Ans:
+Breakpoints allow different styles for different
+screen sizes.
+
+Q2. What is Tailwind's default responsive approach?
+
+Ans:
+Mobile-First.
+
+Q3. How is dark mode written?
+
+Ans:
+Using the dark: variant.
+
+Example:
+dark:bg-gray-900
+
+Q4. What is focus:ring-2?
+
+Ans:
+It adds a focus ring around an element.
+
+Q5. What are arbitrary values?
+
+Ans:
+Custom values written inside square brackets [].
+
+Example:
+w-[300px]
+
+Q6. What is a gradient?
+
+Ans:
+A smooth transition between two or more colors.
+
+Q7. What are from, via and to?
+
+Ans:
+from → Starting color
+via  → Middle color
+to   → Ending color
+
+
+--------------------------------------------------
+QUICK REVISION
+--------------------------------------------------
+
+sm: / md: / lg: / xl: / 2xl:
+→ Responsive Breakpoints
+
+dark:
+→ Dark Mode
+
+focus:
+→ Focus State
+
+[...]
+→ Arbitrary Value
+
+bg-gradient-to-r
+→ Gradient Direction
+
+from-*
+→ Starting Color
+
+via-*
+→ Middle Color
+
+to-*
+→ Ending Color
+
+==================================================
+END OF TOPIC 17–21
+==================================================

@@ -1,0 +1,124 @@
+# 14. Grid (Tailwind CSS)
+
+## Introduction
+Grid is a 2D layout system used to arrange items in rows and columns.
+
+-----------------------------------------
+
+1. grid
+Creates a grid container.
+
+Example:
+class="grid"
+
+-----------------------------------------
+
+2. grid-cols
+Defines the number of columns.
+
+Examples:
+grid-cols-2
+grid-cols-3
+grid-cols-4
+
+-----------------------------------------
+
+3. gap
+Adds spacing between rows and columns.
+
+Examples:
+gap-2
+gap-4
+gap-6
+gap-8
+
+-----------------------------------------
+
+4. col-span
+Makes an item occupy multiple columns.
+
+Examples:
+col-span-2
+col-span-3
+
+-----------------------------------------
+
+5. row-span
+Makes an item occupy multiple rows.
+
+Examples:
+row-span-2
+row-span-3
+
+-----------------------------------------
+
+Example
+
+<div class="grid grid-cols-3 gap-4">
+
+    <div>1</div>
+
+    <div class="col-span-2">
+        Col Span 2
+    </div>
+
+    <div class="row-span-2">
+        Row Span 2
+    </div>
+
+</div>
+
+-----------------------------------------
+
+Important Classes
+
+grid
+grid-cols-2
+grid-cols-3
+grid-cols-4
+gap-2
+gap-4
+gap-6
+col-span-2
+col-span-3
+row-span-2
+row-span-3
+
+-----------------------------------------
+
+Interview Questions
+
+Q1. What is Grid?
+Ans: A 2D layout system used for rows and columns.
+
+Q2. What does grid-cols do?
+Ans: Sets the number of columns.
+
+Q3. What does gap do?
+Ans: Adds spacing between grid items.
+
+Q4. What is col-span?
+Ans: Makes an item span multiple columns.
+
+Q5. What is row-span?
+Ans: Makes an item span multiple rows.
+
+-----------------------------------------
+
+Summary
+
+✔ grid = Create Grid Container
+✔ grid-cols = Number of Columns
+✔ gap = Space Between Items
+✔ col-span = Merge Columns
+✔ row-span = Merge Rows
+
+-----------------------------------------
+
+Real Uses
+
+✔ Dashboard Layout
+✔ Product Cards
+✔ Image Gallery
+✔ Admin Panel
+✔ Portfolio Website

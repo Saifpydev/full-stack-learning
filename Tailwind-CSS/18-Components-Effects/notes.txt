@@ -1,0 +1,205 @@
+=============================================
+TAILWIND CSS – COMPONENTS & EFFECTS
+=============================================
+
+22. BUTTONS
+-----------
+
+Button ko attractive aur interactive banane ke liye
+multiple Tailwind utility classes combine ki jaati hain.
+
+Common Classes:
+
+bg-blue-500
+text-white
+px-4
+py-2
+rounded
+hover:bg-blue-700
+
+Example:
+
+<button class="bg-blue-500 text-white px-4 py-2 rounded">
+    Click Me
+</button>
+
+
+---------------------------------------------
+23. CARDS
+---------------------------------------------
+
+Card ka use content ko ek organized container
+ke andar display karne ke liye hota hai.
+
+Common Classes:
+
+bg-white
+p-5
+rounded-lg
+shadow-lg
+
+Example:
+
+<div class="bg-white p-5 rounded-lg shadow-lg">
+    <h2>Product Card</h2>
+    <p>Card Content</p>
+</div>
+
+
+---------------------------------------------
+24. BADGES
+---------------------------------------------
+
+Badge ka use status, category ya label show
+karne ke liye hota hai.
+
+Common Classes:
+
+px-2
+py-1
+rounded-full
+text-sm
+
+Example:
+
+<span class="bg-green-500 text-white px-2 py-1 rounded-full">
+    Active
+</span>
+
+
+---------------------------------------------
+25. FILTERS
+---------------------------------------------
+
+Filters ka use images ya elements par visual
+effects apply karne ke liye hota hai.
+
+Common Classes:
+
+blur-sm
+blur-md
+blur-lg
+
+grayscale
+grayscale-0
+
+brightness-50
+brightness-100
+
+Example:
+
+<img class="grayscale" src="image.jpg">
+
+
+---------------------------------------------
+26. BACKDROP EFFECTS
+---------------------------------------------
+
+Backdrop effects element ke peeche ke background
+par visual effect apply karte hain.
+
+Common Classes:
+
+backdrop-blur-sm
+backdrop-blur-md
+backdrop-blur-lg
+
+Example:
+
+<div class="backdrop-blur-md bg-white/30">
+    Glass Effect
+</div>
+
+
+---------------------------------------------
+IMPORTANT COMBINATIONS
+---------------------------------------------
+
+Button:
+
+bg-blue-500
+text-white
+px-4
+py-2
+rounded
+hover:bg-blue-700
+
+
+Card:
+
+bg-white
+p-5
+rounded-lg
+shadow-lg
+
+
+Badge:
+
+px-2
+py-1
+rounded-full
+
+
+Glass Effect:
+
+bg-white/30
+backdrop-blur-md
+
+
+---------------------------------------------
+INTERVIEW QUESTIONS
+---------------------------------------------
+
+Q1. What is a Button component?
+
+Answer:
+A UI element used to perform an action.
+
+---------------------------------------------
+
+Q2. What is a Card?
+
+Answer:
+A container used to organize and display content.
+
+---------------------------------------------
+
+Q3. What is a Badge?
+
+Answer:
+A small UI element used to show status,
+category or label.
+
+---------------------------------------------
+
+Q4. What are filters?
+
+Answer:
+Utilities used to apply visual effects such as
+blur, grayscale and brightness.
+
+---------------------------------------------
+
+Q5. What is backdrop-blur?
+
+Answer:
+It applies blur to the background behind an element.
+
+---------------------------------------------
+QUICK REVISION
+---------------------------------------------
+
+Button     → Action
+
+Card       → Content Container
+
+Badge      → Status / Label
+
+Filter     → Visual Effect
+
+Backdrop   → Background Effect
+
+
+=============================================
+END OF TOPIC 22–26
+=============================================
