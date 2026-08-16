@@ -78,4 +78,101 @@ print(type(Marks))
 print(type(Gender))
 print(type(Country))
 
+# question no-12 Create three variable in one line and print them in three seperate lines.
+
+name, age, city  = "fahad", 21, "Arwal"
+print(name)
+print(age)
+print(city)
+
+# Store your name age city and mobile number then print them with labels.
+
+name = "Farid"
+age = 25
+city = "Patna"
+MobileNo = 700515263
+
+print(f"Name: {name}\nage: {age} \ncity: {city} \nMobileNo {MobileNo}")
+# This is one line print method
+
+print(f"Name :{name}")
+print(f"age : {age}")
+print(f"city :{city}")
+print(f"MobileNo {MobileNo}")
+
+# This is seperate method of print
+
+# question Change the date type of a variable
+
+x = 10 
+X = "Python"
+
+print(type(x))
+print(type(X))
+
+print(id(x))
+print(id(X))
+
+z = 100
+y = 200
+z, y = y, z
+print(z,y)
+print(y,z)
+
+
+# write a program that uses at least 8 variable and prints all of them.
+
+name = "Ali Khan"
+Age = 25
+Education = "B.tech"
+college = "Jain College"
+language = "English"
+Hobbies = "New Skill"
+address = "Patna"
+work = "Full stack developer"
+
+print(f"name: {name}")
+print(f"Age : {Age}")
+print(f"Education:  {Education}")
+print(f"college: {college}")
+print(f"language: {language}")
+print(f"Hobbies:{Hobbies}")
+print(f"work: {work}")
+
+
+# Advanced  Level 
+# Create variable using meaningful names;
+
+student_name = "Shayam"
+student_age = 22
+college_name = "Jain College"
+
+print(f"student_name: {student_name}")
+print(f"student_age: {student_age}")
+print(f"college_name: {college_name}")
+
+# write a program that uses: type() id() del()
+
+country = "India"
+Totalpopulation = 1500
+# type() data tpye check
+print(type(name))
+print(type(Totalpopulation))
+print(id(name))
+print(id(Totalpopulation))
+
+# Print one variable and change its value 5 times. Pirnt every value.
+name = "saif"
+print(name)
+name = "Ali"
+print(name)
+
+name = "Raju"
+print(name)
+name = "adil"
+print(name)
+name = "qadri"
+print(name)
+
+
 
