@@ -1,0 +1,37 @@
+REACT INSTALLATION
+
+1. Install Node.js.
+2. Check:
+   node -v
+   npm -v
+
+3. Create React folder.
+4. Open React folder in VS Code.
+5. Open Terminal.
+
+6. Create Vite project:
+   npm create vite@latest .
+
+7. Package name:
+   react
+
+8. Framework:
+   React
+
+9. Variant:
+   JavaScript
+
+10. Linter:
+    ESLint
+
+11. Install:
+    Yes
+
+12. Start:
+    npm run dev
+
+13. Open:
+    http://localhost:5173/
+
+Important:
+src = Main React coding folder

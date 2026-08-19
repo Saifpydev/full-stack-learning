@@ -62,3 +62,15 @@ status = True
 status = str(status)
 print(status)
 print(type(status))
+
+# question 
+
+age = "60"
+print(age)
+print(type(age))
+
+age = int(age)
+
+print(age)
+print(type(age))
+

@@ -1,0 +1,610 @@
+==================================================
+                    REACT JSX
+==================================================
+
+Topic: JSX (JavaScript XML)
+Folder: 02-JSX
+
+--------------------------------------------------
+1. WHAT IS JSX?
+--------------------------------------------------
+
+JSX stands for JavaScript XML.
+
+JSX allows us to write HTML-like syntax inside
+JavaScript/React code.
+
+Example:
+
+function App() {
+    return (
+        <h1>Hello React</h1>
+    );
+}
+
+JSX makes React UI code easier to read and write.
+
+--------------------------------------------------
+2. BASIC JSX SYNTAX
+--------------------------------------------------
+
+function App() {
+    return (
+        <div>
+            <h1>Hello World</h1>
+            <p>Welcome to React</p>
+        </div>
+    );
+}
+
+--------------------------------------------------
+3. JSX MUST HAVE ONE ROOT ELEMENT
+--------------------------------------------------
+
+Incorrect:
+
+return (
+    <h1>Hello</h1>
+    <p>Welcome</p>
+);
+
+Correct:
+
+return (
+    <div>
+        <h1>Hello</h1>
+        <p>Welcome</p>
+    </div>
+);
+
+Another way:
+
+return (
+    <>
+        <h1>Hello</h1>
+        <p>Welcome</p>
+    </>
+);
+
+<> </> is called Fragment.
+
+--------------------------------------------------
+4. JSX EXPRESSIONS {}
+--------------------------------------------------
+
+JavaScript expressions can be written inside
+curly braces {}.
+
+Example:
+
+function App() {
+
+    let name = "Saif";
+    let age = 22;
+
+    return (
+        <>
+            <h1>Hello {name}</h1>
+            <p>Age: {age}</p>
+        </>
+    );
+}
+
+Output:
+
+Hello Saif
+Age: 22
+
+--------------------------------------------------
+5. VARIABLES IN JSX
+--------------------------------------------------
+
+Variables can be displayed using {}.
+
+Example:
+
+let name = "Saif";
+let course = "React";
+
+return (
+    <>
+        <p>Name: {name}</p>
+        <p>Course: {course}</p>
+    </>
+);
+
+--------------------------------------------------
+6. JAVASCRIPT EXPRESSIONS
+--------------------------------------------------
+
+We can use expressions inside {}.
+
+Example:
+
+let a = 10;
+let b = 20;
+
+return (
+    <h1>Total: {a + b}</h1>
+);
+
+Output:
+
+Total: 30
+
+--------------------------------------------------
+7. STRING CONCATENATION
+--------------------------------------------------
+
+Example:
+
+let firstName = "Saif";
+let lastName = "Farid";
+
+return (
+    <h1>{firstName + " " + lastName}</h1>
+);
+
+--------------------------------------------------
+8. TEMPLATE LITERALS
+--------------------------------------------------
+
+Template literals can also be used.
+
+Example:
+
+let name = "Saif";
+let age = 22;
+
+return (
+    <p>{`My name is ${name} and I am ${age} years old.`}</p>
+);
+
+--------------------------------------------------
+9. JSX ATTRIBUTES
+--------------------------------------------------
+
+HTML attributes are used in JSX with slightly
+different rules.
+
+Example:
+
+<img src="photo.jpg" />
+
+React uses camelCase for many attributes.
+
+HTML:
+
+class
+
+JSX:
+
+className
+
+HTML:
+
+for
+
+JSX:
+
+htmlFor
+
+--------------------------------------------------
+10. className
+--------------------------------------------------
+
+In JSX, use className instead of class.
+
+Example:
+
+<div className="container">
+    <h1>Hello React</h1>
+</div>
+
+--------------------------------------------------
+11. INLINE CSS
+--------------------------------------------------
+
+CSS can be written using a JavaScript object.
+
+Example:
+
+const style = {
+    color: "blue",
+    fontSize: "30px"
+};
+
+return (
+    <h1 style={style}>Hello React</h1>
+);
+
+Or:
+
+<h1 style={{ color: "blue", fontSize: "30px" }}>
+    Hello React
+</h1>
+
+--------------------------------------------------
+12. JSX COMMENTS
+--------------------------------------------------
+
+JSX comments are written like this:
+
+{/* This is a JSX comment */}
+
+Example:
+
+return (
+    <>
+        {/* Heading */}
+        <h1>Hello React</h1>
+    </>
+);
+
+--------------------------------------------------
+13. SELF-CLOSING TAGS
+--------------------------------------------------
+
+Some JSX elements must be self-closed.
+
+Example:
+
+<img src="image.jpg" />
+
+<input type="text" />
+
+<br />
+
+Wrong:
+
+<img src="image.jpg">
+
+Correct:
+
+<img src="image.jpg" />
+
+--------------------------------------------------
+14. JSX JAVASCRIPT LOGIC
+--------------------------------------------------
+
+Expressions can be used inside JSX.
+
+Example:
+
+let age = 22;
+
+return (
+    <p>
+        {age >= 18 ? "Adult" : "Minor"}
+    </p>
+);
+
+Output:
+
+Adult
+
+--------------------------------------------------
+15. CONDITIONAL RENDERING
+--------------------------------------------------
+
+Example:
+
+let isLoggedIn = true;
+
+return (
+    <h1>
+        {isLoggedIn ? "Welcome User" : "Please Login"}
+    </h1>
+);
+
+--------------------------------------------------
+16. JSX WITH ARRAYS
+--------------------------------------------------
+
+Example:
+
+let skills = ["HTML", "CSS", "JavaScript"];
+
+return (
+    <>
+        <p>{skills[0]}</p>
+        <p>{skills[1]}</p>
+        <p>{skills[2]}</p>
+    </>
+);
+
+--------------------------------------------------
+17. JSX WITH OBJECT DATA
+--------------------------------------------------
+
+Example:
+
+let student = {
+    name: "Saif",
+    age: 22,
+    course: "React"
+};
+
+return (
+    <>
+        <p>Name: {student.name}</p>
+        <p>Age: {student.age}</p>
+        <p>Course: {student.course}</p>
+    </>
+);
+
+--------------------------------------------------
+18. JSX IS NOT HTML
+--------------------------------------------------
+
+JSX looks like HTML but it is not exactly HTML.
+
+Important differences:
+
+HTML:
+class
+
+JSX:
+className
+
+HTML:
+onclick
+
+JSX:
+onClick
+
+HTML:
+for
+
+JSX:
+htmlFor
+
+--------------------------------------------------
+19. JSX AND JAVASCRIPT
+--------------------------------------------------
+
+JSX allows JavaScript expressions inside {}.
+
+Example:
+
+let name = "Saif";
+let marks = 85;
+
+return (
+    <>
+        <h1>{name}</h1>
+        <p>Marks: {marks}</p>
+        <p>Result: {marks >= 40 ? "Pass" : "Fail"}</p>
+    </>
+);
+
+--------------------------------------------------
+20. IMPORTANT JSX RULES
+--------------------------------------------------
+
+1. JSX must return one parent/root element.
+
+2. Use {} for JavaScript expressions.
+
+3. Use className instead of class.
+
+4. JSX tags must be properly closed.
+
+5. Self-closing tags must use />.
+
+6. Use camelCase for many JSX attributes.
+
+7. JSX comments use:
+   {/* comment */}
+
+8. JavaScript statements cannot be directly written
+   inside JSX {}.
+
+Example:
+
+Wrong:
+
+{
+    let x = 10;
+}
+
+Use expressions instead.
+
+--------------------------------------------------
+21. JSX vs HTML
+--------------------------------------------------
+
+HTML:
+
+<div class="box">
+    <h1>Hello</h1>
+</div>
+
+JSX:
+
+<div className="box">
+    <h1>Hello</h1>
+</div>
+
+--------------------------------------------------
+22. COMPLETE JSX EXAMPLE
+--------------------------------------------------
+
+function App() {
+
+    let name = "Saif";
+    let age = 22;
+    let course = "React";
+    let city = "Delhi";
+
+    return (
+        <>
+            <h1>Student Profile</h1>
+
+            <p>Name: {name}</p>
+            <p>Age: {age}</p>
+            <p>Course: {course}</p>
+            <p>City: {city}</p>
+
+            <p>
+                Status: {age >= 18 ? "Adult" : "Minor"}
+            </p>
+        </>
+    );
+}
+
+export default App;
+
+Output:
+
+Student Profile
+Name: Saif
+Age: 22
+Course: React
+City: Delhi
+Status: Adult
+
+--------------------------------------------------
+23. COMMON JSX ERRORS
+--------------------------------------------------
+
+Error 1:
+
+Using class instead of className.
+
+Wrong:
+
+<div class="box">
+
+Correct:
+
+<div className="box">
+
+--------------------------------------------------
+
+Error 2:
+
+Multiple root elements.
+
+Wrong:
+
+return (
+    <h1>Hello</h1>
+    <p>Welcome</p>
+);
+
+Correct:
+
+return (
+    <>
+        <h1>Hello</h1>
+        <p>Welcome</p>
+    </>
+);
+
+--------------------------------------------------
+
+Error 3:
+
+Unclosed JSX tag.
+
+Wrong:
+
+<img src="image.jpg">
+
+Correct:
+
+<img src="image.jpg" />
+
+--------------------------------------------------
+24. JSX IMPORTANT INTERVIEW QUESTIONS
+--------------------------------------------------
+
+Q1. What is JSX?
+
+Answer:
+JSX is a syntax extension for JavaScript that allows
+developers to write HTML-like UI syntax inside
+JavaScript.
+
+Q2. Is JSX HTML?
+
+Answer:
+No. JSX looks like HTML but is JavaScript syntax
+used by React to describe UI.
+
+Q3. Why do we use JSX?
+
+Answer:
+JSX makes React UI code easier to read, write and
+maintain.
+
+Q4. Can we write JavaScript inside JSX?
+
+Answer:
+Yes. JavaScript expressions can be written inside
+curly braces {}.
+
+Q5. Why do we use className instead of class?
+
+Answer:
+Because class is a JavaScript keyword, so React uses
+className for CSS classes.
+
+Q6. What is a Fragment?
+
+Answer:
+A Fragment allows us to return multiple JSX elements
+without adding an extra HTML element.
+
+Example:
+
+<>
+    <h1>Hello</h1>
+    <p>React</p>
+</>
+
+Q7. What is the use of {} in JSX?
+
+Answer:
+{} is used to embed JavaScript expressions inside JSX.
+
+--------------------------------------------------
+25. QUICK REVISION
+--------------------------------------------------
+
+JSX = JavaScript XML
+
+JSX looks like HTML.
+
+JavaScript expression:
+{expression}
+
+CSS class:
+className
+
+JavaScript event:
+onClick
+
+Fragment:
+<> </>
+
+Comment:
+{/* comment */}
+
+Self closing:
+<img />
+<input />
+
+Conditional:
+{condition ? "Yes" : "No"}
+
+Object:
+{student.name}
+
+Array:
+{skills[0]}
+
+==================================================
+END OF JSX NOTES
+==================================================
