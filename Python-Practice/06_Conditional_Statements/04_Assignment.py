@@ -28,7 +28,7 @@ password = "7004742819"
 
 username = input("Enter username: ")
 password = input("Enter password: ")
-if username == "Saif farid" and  password == "12345":
+if username == "Saif farid" and  password == "7004742819":
     print("Login successful")
 else:
     print("Invalid username or password")
