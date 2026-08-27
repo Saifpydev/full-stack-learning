@@ -1,34 +1,16 @@
-#  Create & print Set
-numbers = {10, 20, 30, 10}
-print(numbers)
-print(type(numbers))
+python = {"Python", "SQL", "Git", "Django"}
+web = {"Html", "css", "javascript", "React", "Git"}
+# find and print
+# common skill all unique skills pyhton only skills web-only-skills non common skills
 
-#   Note Duplicate automatically remove ho jayga
+common = python & web 
+all_skills = python |web
+python_only = python - web
+web_only = web -python
+non_common = python ^ web
 
-# add()
-fruits = {"Apple", "Mango"}
-fruits.add("Banana")
-print(fruits)
-
-# Update ()
-
-numbers = {10, 20}
-numbers.update([30 ,40, 50])
-print(numbers)
-
-# remove() vs discard()
-
-numbers = {10, 20, 30}
-numbers.remove(20)
-print(numbers)
-
-numbers.discard(30)
-print(numbers)
-
-
-# len() + Membership
-
-fruits = {"Apple", "Mango", "Banana"}
-print(len(fruits))
-print("Apple" in fruits)
-print("Orange" not in fruits)
+print("Common:", common)
+print("All:", all_skills)
+print("Python only:", python_only)
+print("Web only:", web_only)
+print("Non-common:", non_common)
