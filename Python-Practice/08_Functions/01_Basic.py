@@ -25,4 +25,4 @@ print(result)
 
 def greet(name= "User"):
     print("Hello", name)
-    greet("Saif")
+    greet("Saif") 
