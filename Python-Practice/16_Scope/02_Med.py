@@ -39,8 +39,33 @@ outer()
 # nonlocal
 # Create an outer() function with count = 0. Inside innner(), nonlocal to increase count by 1 Call inner() three times and print the final value
 
+def outer():
+    count = 0
 
+    def inner():
+        nonlocal count
+        count += 1
+
+        inner()
+        inner()
+        inner()
+
+        print("Final count:", count)
+
+outer()        
 
 # LEGB
 # Create variables with the same name in Global, Enclosing, and local scopes. Access the variable from the inner function and identify which value python selects according to the LEGB rule
 
+x = "Global"
+
+def outer():
+    x = "Enclosing"
+
+    def inner():
+        x = "Local"
+        print(x)
+    inner()
+
+outer()
+        
