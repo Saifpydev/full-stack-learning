@@ -1,45 +1,34 @@
-# Global variable Access
-# Create a global variable language = "Python" and access it inside a function without using global
+# Ṃultiple Imports
+# Import math and random moudules and:
 
-def outer():
-    x = 100
+import math
+import random
 
-    def inner():
-        x = 50
-        print("Inner:", x)
+# Find the square root of 81
 
-    print("Outer:", x)
-    inner()
+print("Square Root:", math.sqrt(81))
 
-outer()
-
-# Global variable update
-# Crete a global variable score = 0. Create a function that increases it by using the global keyword
-
-score = 0
-
-def increase_score():
-    global score
-    score += 10
-
-increase_score()
-
-print("Score:", score)
+# Generate a random number between 1 and 50
+random.randint(1, 50)
 
 
+# Module Alias
+# Import datetime using an alias and print the current date.
 
+import datetime as dt
 
-# Enclosing Scope
-# Create an outer() function with x = 100 and an inner () function with x = 50. Print x from both functions and observe the difference.
+print("Current Date:", dt.date.today())
 
-def outer():
-    x = 100
+# Custom Module
+# Crete calculator.py containing
+# add()
+# subtract()
+# multiple()
+# divide()
 
-    def inner():
-        x = 50
-        print("Inner:", x)
+import _Calculator
 
-    print("Outer:", x)
-    inner()    
-
-outer()
+print("Add:", _Calculator.add(10, 5))
+print("Subtract:", _Calculator.subtract(10, 5))
+print("Multiply:", _Calculator.multiply(10, 5))
+print("Divide:", _Calculator.divide(10, 5))

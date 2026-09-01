@@ -1,44 +1,24 @@
-# Demonstrate the differebce between local and gloabl scope using the same variable name
+# Module Design
+# Create math_utils.py containing functions for:
+# Square Cube Factorial
+# Import the module and call all functions from 
 
-x = 100
-
-def show_x():
-    x = 50
-    print("Local:", x)
-show_x()
-
-print("Global:", x)
-
-
-# Use the global keyword to modify a global balance variable inside a function
-
-balance = 1000
-
-def add_money():
-    global balance
-    balance += 500
-
-add_money()
-
-print("Balance:", balance)
+import _math_utils
+print("Square:", _math_utils.square(5))
+print("Cube:", _math_utils.cube(5))
+print("Factorial:", _math_utils.factorial(5))
 
 
 
-# Create a counter closure that remembers its count between function calls
+# Selective Import + Alias
 
-def counter():
-    count = 0
+# Create a module converter.py with functions
+# celsius_to_fahrenheit()
+# kilometers_to miles()
+# Import only these functions using form ... import ... and give one imported function an alis
 
-    def increase():
-        nonlocal count
-        count += 1
-        return count
 
-    return increase
+from converter import celsius_to_fahrenheit as c_to_f, kilometers_to_miles
 
-count = counter()
-
-print(count())
-print(count())
-print(count())
-
+print("Fahrenheit:", c_to_f(25))
+print("Miles:", kilometers_to_miles(10))
