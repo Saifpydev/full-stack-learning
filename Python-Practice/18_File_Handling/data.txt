@@ -1,0 +1,10 @@
+Python
+Django
+Full Stack Development
+React
+JavaScript
+BootStrap
+TailwindCSS
+HTML
+CSS
+JavaScript
