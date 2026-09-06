@@ -31,3 +31,13 @@ print(emails)
 # At least 1 lowercase letter
 # At least 1 digit
 
+import re
+
+password = "Saif1234"
+
+pattern = r"^(?=.*[A-Z])(?=.*[a-z])(?=.*\d).{8,}$"
+
+if re.fullmatch(pattern, password):
+    print("Valid Password")
+else:
+    print("Invalid Password")
